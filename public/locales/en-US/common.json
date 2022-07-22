@@ -1,0 +1,154 @@
+{
+  "loading": "LOADING....",
+  "headingTitle": "Smarter Coding, Better Living",
+  "Subheading": "Make your Dream Project Bring to Life with our Experienced and knowledgeable Staff",
+  "areTrusted": {
+    "title": "We Are Trusted <br class='media-br-none'/> Because",
+    "info": [
+      "We can plan all the development process giving you a ready-made project",
+      "Our customers' satisfaction and safety are above it all",
+      "We are always ready to learn, develop and share our knowledge and practice with our employees",
+      "Our customers are always free to contact us and have answers to all of their questions",
+      "We are always ready to solve our customers' problems in the shortest possible periods of time",
+      "We always give our customers multiple way to contact us"
+    ]
+  },
+  "typesSolutions": {
+    "title": "We Suggest",
+    "info": [
+      {
+        "infoTitle": "Website Development",
+        "infoDescriptions": "We create any type of a web program in the shortest possible terms, providing regularly working webpages with a reliable functionality, attractive, modern and unique design. Our clients highly appreciate our work. Your good opinion motivates us to create better and more creative web pages."
+      },
+      {
+        "infoTitle": "Mobile Applications",
+        "infoDescriptions": "We create mobile applications, which are available on any platform to download both for Android and Ios. Thanks to their cross-platform feature, user-friendly interface, as well as the smart solutions of our developers, they are really easy to use. We always do our best to satisfy our customers and make them trust us their next project."
+      },
+      {
+        "infoTitle": "Game Development",
+        "infoDescriptions": "Thanks to our creative and knowledgeable professionals we have acquired skills in this development sphere, too. We can create games which require to perform tasks of various complexity levels. They are attractive, eye-catchy and easy to use. Even the most capricious clients and pretentious users will be satisfied with our product."
+      },
+      {
+        "infoTitle": "Responsive Web Design",
+        "infoDescriptions": "We create not only regularly working webpages, mobile applications and games, but also creative and unique design for both web pages and mobile applications. Our creative designer will help you to create the project of your dreams, using the most trendy colors and details. Each of our new projects is a link to our next happy customer."
+      }
+    ]
+  },
+  "OurProjects": {
+    "title": "Our Projects",
+    "descriptions": "Below you can find some of our highly developed projects, as well as get to know the project details better",
+    "buttonText": "View More"
+  },
+  "MeetOurTeam": {
+    "title": "Our Team",
+    "descriptions": "We appreciate the work of our developers"
+  },
+  "GetInTouch": "GET IN TOUCH",
+  "phone": "+374 93 51 85 95",
+  "email": "info@annaniks.am",
+  "comeMeetUs": "OUR ADDRESS",
+  "city": "GYUMRI",
+  "addres": "1 Manushyan Street, Gyumri 3101",
+  "question": "Still Have a Question?",
+  "help": "We're here to help. 24 hours a day, 7 days a week.",
+  "contactUs": "CONTACT US",
+  "copyright": "Copyright © 2019 Annaniks. All rights reserved.",
+  "ourProjects": "Our Projects",
+  "careers": "Career",
+  "ourProjectpage": {
+    "title": "You create, we bring it to life",
+    "subTitle": "Make your Dream Project Bring to Life with our Experienced and Knowledgeable Staff. We Have Successfully Finished a Range of Projects. Scroll Down to Look them all Through.",
+    "loadMore": "LOAD MORE",
+    "allProject": "All projects"
+  },
+  "careersPage": {
+    "title": "Become a Part of Our Big Family!",
+    "subTitle": "Looking for a position? Here is the best opportunity to join our team",
+    "joinUsButton": "JOIN US",
+    "ourValues": "Our Values",
+    "ourValuesSubtitle": "Our Clients Always Trust and Appreciate our Values not Depending on which Level of Development our Company is. They always Guide us to Make Significant Everyday Decisions",
+    "lifeAtAnnaniksTitle": "Life at Annaniks",
+    "lifeAtAnnaniksSubtitle": "Look at the daily routine at our IT company",
+    "findeYourPosition": "Find Your Position",
+    "loadMore": "LOAD MORE",
+    "maybeWeWill": "Didn't Find a Position That Suits You? <br/> Maybe We Will Help you to Find!",
+    "maybeWeWillSubtitle": "We always make room for talented people. <br /> Submit your resume and we'll get in touch if anything comes up.",
+    "send": "SEND"
+  },
+  "careersPageDinamyc": {
+    "buttonTextTop": "View All Positions",
+    "formInfo": {
+      "aboutPosition": "About the position",
+      "firstName": "FIRST NAME ",
+      "lastName": "LAST NAME",
+      "emailAddres": "EMAIL ADDRESS",
+      "phoneNumber": "PHONE NUMBER",
+      "attachResume": "Attach resume",
+      "attachPortfolio": "Attach portfolio",
+      "linkedinePortfolioUrl": "LINKEDIN PROFILE URL",
+      "personalWebsite": "PERSONAL WEBSITE",
+      "personalNote": "PERSONAL NOTE",
+      "submitAplication": "SUBMIT APPLICATION"
+    },
+    "formError": {
+      "firstName": "Incorrectly indicated",
+      "lastName": "Incorrectly indicated",
+      "emailAddres": "Incorrectly indicated",
+      "phoneNumber": "Incorrectly indicated",
+      "attachResume": "Incorrectly indicated",
+      "attachPortfolio": "Incorrectly indicated",
+      "linkedinePortfolioUrl": "Incorrectly indicated",
+      "personalWebsite": "Incorrectly indicated",
+      "personalNote": "Incorrectly indicated"
+    }
+  },
+  "contactUsModalInfo": {
+    "title": "Contact Us",
+    "firstName": "FIRST NAME",
+    "lastName": "LAST NAME",
+    "emailAddres": "EMAIL ADDRESS",
+    "phoneNumber": "PHONE NUMBER",
+    "message": "MESSAGE",
+    "buttonText": "SEND",
+    "error": {
+      "firstName": "Incorrectly indicated",
+      "lastName": "Incorrectly indicated",
+      "emailAddres": "Incorrectly indicated",
+      "phoneNumber": "Incorrectly indicated",
+      "message": "Incorrectly indicated"
+    }
+  },
+  "statusMessage": "Status success.",
+  "optionsCustomArr": [
+    {
+      "title": "Website Development"
+    },
+    {
+      "title": "Mobile Application"
+    },
+    {
+      "title": "Game Development"
+    },
+    {
+      "title": "Responsive Web Design"
+    }
+  ],
+  "card": [
+    {
+      "title": "Teamwork",
+      "description": "For our company teamwork is the key concept which offers numerous benefits. First of all it provides a more connected work environment, we can always take advantage of multiple strengths, help each other to learn and develop, it reduces deadline stress, and a lot more."
+    },
+    {
+      "title": "Trust",
+      "description": "Effective business relationships are possible only with trust between the parties. In our IT company we base all our dealings inside and outside the company on high levels of trust."
+    },
+    {
+      "title": "Quality",
+      "description": "We take pride in providing high value products and services that we stand behind, which ensures customer satisfaction, profitability and the future of our employees and growth of our company."
+    },
+    {
+      "title": "Innovation",
+      "description": "We foster a work environment where creative thinking is encouraged and rewarded in order to create opportunities for process improvement and more cost-effective sustainable products and services."
+    }
+  ]
+}
