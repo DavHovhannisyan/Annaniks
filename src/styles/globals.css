@@ -2,4 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  background: #160A28;
+}
+.container{
+  margin: 0 auto;
+  text-align: center;
 }

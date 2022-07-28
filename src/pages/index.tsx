@@ -3,6 +3,7 @@ import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 import {useTranslation} from "next-i18next";
 import Layout from "../layout/Layout";
 import {props} from "../constants/home/constants";
+import Banner from "../components/home/Banner";
 
 export const getStaticProps: GetStaticProps = async ({locale}: any) => {
     return {
@@ -16,7 +17,7 @@ const Home: NextPage = ({locale}: any) => {
     const {t} = useTranslation();
     return (
         <Layout props={props}>
-            Content
+            <Banner />
         </Layout>
     )
 }
