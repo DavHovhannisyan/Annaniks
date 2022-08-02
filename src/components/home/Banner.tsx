@@ -1,11 +1,11 @@
 import {FC} from "react";
-import {Box} from "@mui/material";
-import Home from "../../styles/Home.module.css";
-import {useTranslation} from "next-i18next";
 import Image from "next/image";
+import {useTranslation} from "next-i18next";
+import {Box} from "@mui/material";
 import bannerImg1 from "../../../public/images/banner/Group 69114.png";
 import bannerImg2 from "../../../public/images/banner/Group 69189.png";
 import bannerImg3 from "../../../public/images/banner/Group 69188.png";
+import Home from "../../styles/Home.module.css";
 
 const Banner: FC = () => {
     const {t} = useTranslation('common');
@@ -25,15 +25,15 @@ const Banner: FC = () => {
                 </h3>
                 <div className={Home.bannerImg}>
                     <div data-aos="fade-up"
-                         data-aos-duration="3000" className={Home.imgItem1}>
+                         data-aos-duration="2500" className={Home.imgItem1}>
                         <Image src={bannerImg1} alt={"img"} width={"235px"} height={"344px"}/>
                     </div>
                     <div data-aos="fade-up"
-                         data-aos-duration="2000" className={Home.imgItem2}>
+                         data-aos-duration="1800" className={Home.imgItem2}>
                         <Image src={bannerImg2} alt={"img"} width={"704px"} height={"450px"}/>
                     </div>
                     <div data-aos="fade-up"
-                         data-aos-duration="1000" className={Home.imgItem3}>
+                         data-aos-duration="1700" className={Home.imgItem3}>
                         <Image src={bannerImg3} alt={"img"} width={"1027px"} height={"601px"}/>
                     </div>
 

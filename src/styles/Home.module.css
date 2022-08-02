@@ -1,61 +1,69 @@
 
-.header{
+.header {
     width: 100%;
     max-width: 1960px;
     padding: 20px 110px;
     position: absolute;
 }
+
 .menuBlock {
     display: flex;
 }
-.banner{
+
+.banner {
     padding-top: 28px;
     padding-bottom: 28px;
-    background-image: url("../../public/images/banner/Group 69250.svg"),url("../../public/images/banner/Group 69165.svg");
-    background-position: 100% 0,-50px 100%;
+    background-image: url("../../public/images/banner/Group 69250.svg"), url("../../public/images/banner/Group 69165.svg");
+    background-position: 100% 0, -50px 100%;
     background-repeat: no-repeat;
 }
-.bannerBlock{
+
+.bannerBlock {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.headingTitle{
+
+.headingTitle {
     font: normal normal 700 60px/68px Open Sans;
     letter-spacing: 0;
     color: #FFFFFF;
-    width: 1268px;
+    max-width: 1200px;
     margin-top: 120px;
 
 }
-.headingSubTitle{
+
+.headingSubTitle {
     font: normal normal normal 30px/38px Open Sans;
     letter-spacing: 0;
     color: #FFFFFF99;
-    width: 1268px;
+    width: 1000px;
     margin-top: 30px;
 }
-.bannerImg{
+
+.bannerImg {
     position: relative;
     margin: 120px auto 0;
     height: 600px;
     width: fit-content;
 }
 
-.imgItem1{
+.imgItem1 {
     position: absolute;
     top: -80px;
     left: 0;
     z-index: 1;
 }
-.imgItem2{
+
+.imgItem2 {
     position: absolute;
     top: -80px;
     left: 50%;
     z-index: 3;
 }
-.imgItem3{
+
+.imgItem3 {
     position: relative;
     z-index: 2;
 }
@@ -78,8 +86,9 @@
     color: #FFFFFF;
     transition: all ease 0.5s;
 }
+
 .menuItem:hover,
-.dropDawnOptions:hover  .lang{
+.dropDawnOptions:hover .lang {
     color: #FFFFFF99;
 }
 
@@ -109,4 +118,46 @@
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 22px;
+}
+
+.trusted {
+    background-image: url("../../public/images/trusted/Path 128902.svg");
+    background-repeat: no-repeat;
+    height: 1006px;
+    position: relative;
+    top: -180px;
+}
+
+.trustedContentBlock {
+    padding-left: 110px;
+}
+
+.trustedBlock {
+    position: relative;
+    top: 279px;
+}
+
+.trustedBg {
+    background-image: url("../../public/images/trusted/Mask Group 13@2x.png");
+    background-position: 100% 169px;
+    background-size: 1054px 838px;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.trustedTitle {
+    font: normal normal 700 60px/68px Open Sans;
+    letter-spacing: 0;
+    color: #101639;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.trustedList {
+    margin-left: 15px;
+    text-align: left;
+    font: normal normal 600 26px/34px Open Sans;
+    letter-spacing: 0;
+    color: #101639;
+    margin-bottom: 30px;
 }

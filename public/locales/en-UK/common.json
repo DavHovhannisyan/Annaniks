@@ -1,105 +1,105 @@
 {
-  "loading": "LOADING....",
-  "headingTitle": "Smarter Coding, Better Living",
-  "Subheading": "Make your Dream Project Bring to Life with our Experienced and knowledgeable Staff",
+  "loading":"LOADING....",
+  "headingTitle": "We are Flexible in Creation of Our Clients' Creative Projects",
+  "Subheading": "A Digital Platform of Concentration of Our Work in Creating Websites, Web Designs, Mobile Applications and Games",
   "areTrusted": {
     "title": "We Are Trusted <br class='media-br-none'/> Because",
     "info": [
-      "We can plan all the development process giving you a ready-made project",
-      "Our customers' satisfaction and safety are above it all",
-      "We are always ready to learn, develop and share our knowledge and practice with our employees",
-      "Our customers are always free to contact us and have answers to all of their questions",
-      "We are always ready to solve our customers' problems in the shortest possible periods of time",
-      "We always give our customers multiple way to contact us"
+      "Employees constantly strive to develop and learn,<br class='media-br-none'/> as well as share knowledge with colleagues",
+      "There is a healthy atmosphere in the staff, the staff <br class='media-br-none'/> is united and caring for each other",
+      "Our partners trust us knowing the quality of our <br class='media-br-none'/> work  by their own experience",
+      "We create creative works: lorem ispum dolor <br class='media-br-none'/> lorem  ispum lorem dolor",
+      "We are flexible enough to bring to life all of our <br class='media-br-none'/> customers' wishes like Santa"
     ]
   },
   "typesSolutions": {
-    "title": "We Suggest",
+    "title": "Types Of Web Solutions",
     "info": [
       {
         "infoTitle": "Website Development",
-        "infoDescriptions": "We create any type of a web program in the shortest possible terms, providing regularly working webpages with a reliable functionality, attractive, modern and unique design. Our clients highly appreciate our work. Your good opinion motivates us to create better and more creative web pages."
+        "infoDescriptions": "Any web program, order or personal project we do in a shorter time frame using modern programming languages, attractive designs and useful features ensuring high quality, be sure we will do our best to satisfy you."
       },
       {
         "infoTitle": "Mobile Applications",
-        "infoDescriptions": "We create mobile applications, which are available on any platform to download both for Android and Ios. Thanks to their cross-platform feature, user-friendly interface, as well as the smart solutions of our developers, they are really easy to use. We always do our best to satisfy our customers and make them trust us their next project."
+        "infoDescriptions": "The mobile applications we make are easy to use and available for downloading, understandable to users of any age thanks to the cross platform feature and the smart solutions of our specialists. We do our best for satisfaction of our customers and make them trust exactly us the fulfillment of their next order․"
       },
       {
         "infoTitle": "Game Development",
-        "infoDescriptions": "Thanks to our creative and knowledgeable professionals we have acquired skills in this development sphere, too. We can create games which require to perform tasks of various complexity levels. They are attractive, eye-catchy and easy to use. Even the most capricious clients and pretentious users will be satisfied with our product."
+        "infoDescriptions": "The games we create, thanks to our creative & knowledgeable professionals who perform various complexity tasks, are attractive both by character, chromatic and acoustic side, & interesting to use, smart, useful and are pleasant for entertainment organization , easy to manage, and fun that will satisfy even the most capricious client."
       },
       {
         "infoTitle": "Responsive Web Design",
-        "infoDescriptions": "We create not only regularly working webpages, mobile applications and games, but also creative and unique design for both web pages and mobile applications. Our creative designer will help you to create the project of your dreams, using the most trendy colors and details. Each of our new projects is a link to our next happy customer."
+        "infoDescriptions": "We are highly professional skilled in web designing and use our great experience in years to make the kind of effective designs that your product will not go unnoticed, what makes you get a lot of new happy customers."
       }
     ]
   },
-  "OurProjects": {
-    "title": "Our Projects",
-    "descriptions": "Below you can find some of our highly developed projects, as well as get to know the project details better",
-    "buttonText": "View More"
+  "OurProjects":{
+    "title":"Our Projects",
+    "descriptions":"Our experience in creating unique and various types of highly developed projects, <br class='media-br-none-1280'/> where you can see some of their best",
+    "buttonText":"View More"
   },
-  "MeetOurTeam": {
-    "title": "Our Team",
-    "descriptions": "We appreciate the work of our developers"
+  "MeetOurTeam":{
+    "title":"Meet Our Team",
+    "descriptions":"Every hand is a different set of skills"
   },
-  "GetInTouch": "GET IN TOUCH",
-  "phone": "+374 93 51 85 95",
-  "email": "info@annaniks.am",
-  "comeMeetUs": "OUR ADDRESS",
-  "city": "GYUMRI",
-  "addres": "1 Manushyan Street, Gyumri 3101",
-  "question": "Still Have a Question?",
-  "help": "We're here to help. 24 hours a day, 7 days a week.",
-  "contactUs": "CONTACT US",
-  "copyright": "Copyright © 2019 Annaniks. All rights reserved.",
-  "ourProjects": "Our Projects",
-  "careers": "Career",
-  "ourProjectpage": {
-    "title": "You create, we bring it to life",
-    "subTitle": "Make your Dream Project Bring to Life with our Experienced and Knowledgeable Staff. We Have Successfully Finished a Range of Projects. Scroll Down to Look them all Through.",
-    "loadMore": "LOAD MORE",
-    "allProject": "All projects"
+  "GetInTouch":"GET IN TOUCH",
+  "phone":"+374 93 51 85 95",
+  "email":"info@annaniks.am",
+  "comeMeetUs":"COME MEET US",
+  "city":"GYUMRI",
+  "addres":"Tsnndatan 43, 3101, Gyumri-Armenia",
+  "question":"Still Have a Question?",
+  "help":"We’re here to help. 24 hours a day, 7 days a week.",
+  "contactUs":"CONTACT US",
+  "copyright":"Copyright © 2019 Annaniks. All rights reserved.",
+  "ourProjects":"Our Projects",
+  "careers":"Careers",
+  "ourProjectpage":{
+    "title":"Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit",
+    "subTitle":"Our Experience in Creating Unique and Various Types of Highly Developed Projects, <br/> Where You Can See Some of Their Best",
+    "loadMore":"LOAD MORE",
+    "allProject":"All project"
   },
-  "careersPage": {
-    "title": "Become a Part of Our Big Family!",
-    "subTitle": "Looking for a position? Here is the best opportunity to join our team",
-    "joinUsButton": "JOIN US",
-    "ourValues": "Our Values",
-    "ourValuesSubtitle": "Our Clients Always Trust and Appreciate our Values not Depending on which Level of Development our Company is. They always Guide us to Make Significant Everyday Decisions",
-    "lifeAtAnnaniksTitle": "Life at Annaniks",
-    "lifeAtAnnaniksSubtitle": "Look at the daily routine at our IT company",
-    "findeYourPosition": "Find Your Position",
-    "loadMore": "LOAD MORE",
-    "maybeWeWill": "Didn't Find a Position That Suits You? <br/> Maybe We Will Help you to Find!",
-    "maybeWeWillSubtitle": "We always make room for talented people. <br /> Submit your resume and we'll get in touch if anything comes up.",
-    "send": "SEND"
+  "careersPage":{
+    "title":"Become a Part of Our Journey!",
+    "subTitle":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing",
+    "joinUsButton":"JOIN US",
+    "ourValues":"Our Values",
+    "ourValuesSubtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing eli",
+    "lifeAtAnnaniksTitle":"Life at Annaniks",
+    "lifeAtAnnaniksSubtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing eli",
+    "findeYourPosition":"Find Your Position",
+    "findeYourPositionSubtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing eli",
+    "loadMore":"LOAD MORE",
+    "maybeWeWill":"Didn’t Find a Position That Suits You? <br/> Maybe We Will!",
+    "maybeWeWillSubtitle":"We can always make room for talented people. <br /> Submit your resume and we’ll be in touch if anything comes up.",
+    "send":"SEND"
   },
-  "careersPageDinamyc": {
-    "buttonTextTop": "View All Positions",
-    "formInfo": {
-      "aboutPosition": "About the position",
-      "firstName": "FIRST NAME ",
-      "lastName": "LAST NAME",
-      "emailAddres": "EMAIL ADDRESS",
-      "phoneNumber": "PHONE NUMBER",
-      "attachResume": "Attach resume",
-      "attachPortfolio": "Attach portfolio",
-      "linkedinePortfolioUrl": "LINKEDIN PROFILE URL",
-      "personalWebsite": "PERSONAL WEBSITE",
-      "personalNote": "PERSONAL NOTE",
-      "submitAplication": "SUBMIT APPLICATION"
+  "careersPageDinamyc":{
+    "buttonTextTop":"View All Positions",
+    "formInfo":{
+      "aboutPosition":"About the position",
+      "firstName":"FIRST NAME ",
+      "lastName":"LAST NAME",
+      "emailAddres":"EMAIL ADDRESS",
+      "phoneNumber":"PHONE NUMBER",
+      "attachResume":"Attach resume",
+      "attachPortfolio":"Attach portfolio",
+      "linkedinePortfolioUrl":"LINKEDIN PROFILE URL",
+      "personalWebsite":"PERSONAL WEBSITE",
+      "personalNote":"PERSONAL NOTE",
+      "submitAplication":"SUBMIT APPLICATION"
     },
-    "formError": {
-      "firstName": "Incorrectly indicated",
-      "lastName": "Incorrectly indicated",
-      "emailAddres": "Incorrectly indicated",
-      "phoneNumber": "Incorrectly indicated",
-      "attachResume": "Incorrectly indicated",
-      "attachPortfolio": "Incorrectly indicated",
-      "linkedinePortfolioUrl": "Incorrectly indicated",
-      "personalWebsite": "Incorrectly indicated",
-      "personalNote": "Incorrectly indicated"
+    "formError":{
+      "firstName":"Incorrectly indicated",
+      "lastName":"Incorrectly indicated",
+      "emailAddres":"Incorrectly indicated",
+      "phoneNumber":"Incorrectly indicated",
+      "attachResume":"Incorrectly indicated",
+      "attachPortfolio":"Incorrectly indicated",
+      "linkedinePortfolioUrl":"Incorrectly indicated",
+      "personalWebsite":"Incorrectly indicated",
+      "personalNote":"Incorrectly indicated"
     }
   },
   "contactUsModalInfo": {
@@ -118,37 +118,35 @@
       "message": "Incorrectly indicated"
     }
   },
-  "statusMessage": "Status success.",
+
+
+  "statusMessage":"Status success .",
   "optionsCustomArr": [
-    {
-      "title": "Website Development"
-    },
-    {
-      "title": "Mobile Application"
-    },
-    {
-      "title": "Game Development"
-    },
-    {
-      "title": "Responsive Web Design"
-    }
+    { "title": "Website Development" },
+    { "title": "Mobile Application" },
+    { "title": "Game Development" },
+    { "title": "Responsive Web Design" }
   ],
   "card": [
     {
-      "title": "Teamwork",
-      "description": "For our company teamwork is the key concept which offers numerous benefits. First of all it provides a more connected work environment, we can always take advantage of multiple strengths, help each other to learn and develop, it reduces deadline stress, and a lot more."
+      "title": "Ambition",
+      "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "title": "Trust",
-      "description": "Effective business relationships are possible only with trust between the parties. In our IT company we base all our dealings inside and outside the company on high levels of trust."
+      "title": "Ambition",
+      "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "title": "Quality",
-      "description": "We take pride in providing high value products and services that we stand behind, which ensures customer satisfaction, profitability and the future of our employees and growth of our company."
+      "title": "Ambition",
+      "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "title": "Innovation",
-      "description": "We foster a work environment where creative thinking is encouraged and rewarded in order to create opportunities for process improvement and more cost-effective sustainable products and services."
+      "title": "Ambition",
+      "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 }

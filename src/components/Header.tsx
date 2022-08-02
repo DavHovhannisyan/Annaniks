@@ -1,13 +1,13 @@
 import {FC, useState} from "react";
-import {Box, Grid} from "@mui/material";
-import Link from "next/link";
-import Image from "next/image";
+import {useRouter} from "next/router";
 import {useTranslation} from 'next-i18next';
-import Home from "../styles/Home.module.css";
+import Image from "next/image";
+import Link from "next/link";
+import {Box, Grid} from "@mui/material";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import flagUK from "../../public/images/flags/united-kingdom.svg";
 import flagRUS from "../../public/images/flags/russia (1).svg";
-import {useRouter} from "next/router";
+import Home from "../styles/Home.module.css";
 
 const Header: FC = () => {
     const [arrowActive, setArrowActive] = useState<boolean>(true);
