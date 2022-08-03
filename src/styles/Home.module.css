@@ -161,3 +161,58 @@
     color: #101639;
     margin-bottom: 30px;
 }
+
+.tows {
+    width: 100%;
+    position: relative;
+    top: -180px;
+    padding: 0 110px;
+}
+
+.towsContent {
+    background-image: url("../../public/images/tows/Group 69162.svg");
+    background-position: 0 30px;
+    background-repeat: no-repeat;
+}
+
+.webSolutionItem {
+    width: 520px;
+    height: 560px;
+    background: #171333 0 0 no-repeat padding-box;
+    border-radius: 15px;
+    text-align: left;
+    padding: 40px;
+}
+
+.webSolutionItemTitle {
+    margin-top: 40px;
+    font: normal normal 600 28px/36px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.webSolutionItemDesc {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: OpenSans-Regular,sans-serif;
+    letter-spacing: 0;
+    color: #FFFFFF66;
+    width: 466px;
+}
+
+.towsTitle{
+    font-size: 60px;
+    font-family: OpenSans-Bold, sans-serif;
+    line-height: 68px;
+    color: #fff;
+    letter-spacing: 0;
+    margin-bottom: 67px;
+    text-align: left;
+    padding-left: 15px;
+}
+.imgMatrix{
+    position: absolute;
+    top: 67px;
+    right: 400px;
+    z-index: 0;
+}
