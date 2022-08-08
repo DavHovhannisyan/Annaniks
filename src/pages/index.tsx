@@ -3,7 +3,7 @@ import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 import {useTranslation} from "next-i18next";
 import Layout from "../layout/Layout";
 import {props} from "../constants/home/constants";
-import {Banner,TrustedSection,TowsSection} from "../components/index";
+import {Banner,TrustedSection,TowsSection,OurProject} from "../components/index";
 
 
 export const getStaticProps: GetStaticProps = async ({locale}: any) => {
@@ -21,6 +21,7 @@ const Home: NextPage = ({locale}: any) => {
             <Banner/>
             <TrustedSection/>
             <TowsSection />
+            <OurProject />
         </Layout>
     )
 }

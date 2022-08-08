@@ -194,13 +194,13 @@
 .webSolutionItemDesc {
     font-size: 20px;
     line-height: 28px;
-    font-family: OpenSans-Regular,sans-serif;
+    font-family: OpenSans-Regular, sans-serif;
     letter-spacing: 0;
     color: #FFFFFF66;
     width: 466px;
 }
 
-.towsTitle{
+.towsTitle {
     font-size: 60px;
     font-family: OpenSans-Bold, sans-serif;
     line-height: 68px;
@@ -210,9 +210,138 @@
     text-align: left;
     padding-left: 15px;
 }
-.imgMatrix{
+
+.imgMatrix {
     position: absolute;
     top: 67px;
     right: 400px;
     z-index: 0;
+}
+
+.bg {
+    background-image: url("../../public/images/trusted/Path 128902.svg");
+    background-repeat: no-repeat;
+    height: 150px;
+    position: relative;
+    top: -300px;
+}
+
+.ourProject {
+    width: 100%;
+}
+
+.ourProjectBlock {
+    position: relative;
+    top: -300px;
+    background: #ffffff;
+    padding: 30px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourProjectTitle {
+    font-size: 60px;
+    font-family: OpenSans-Bold,sans-serif;
+    line-height: 68px;
+    color: #101639;
+}
+.ourProjectDesc {
+    font-size: 30px;
+    line-height: 38px;
+    font-family: OpenSans-Regular,sans-serif;
+    color: #101639;
+}
+
+.ourProjectBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    background: #98FC03 ;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    transition: all ease 0.5s;
+}
+.ourProjectBtn:hover {
+    transform: scale(0.95);
+}
+.Link{
+    color: #101639;
+    font-family: OpenSans-Bold,sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bgRevers {
+    background-image: url("../../public/images/trusted/Path 128902.svg");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: -250px;
+}
+.carouselItem{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.carouselItemImageBlock{
+    margin-top: 40px;
+    /*position: relative;*/
+}
+
+.carouselItemImage{
+    width: 100%;
+    height: 210px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 20px #00000033;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+}
+
+.carouselItemImage:before{
+    content: "";
+    position: absolute;
+    background-image: url("../../public/images/outProject/Group 69166.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 400px;
+    top: -65px;
+    left: -30px;
+}
+
+.carouselItemTitle{
+    font-weight: 800;
+    font-size: 22px;
+    font-family: OpenSans, sans-serif;
+    letter-spacing: 0;
+    color: #101639;
+    margin-top: 15px;
+    align-self: flex-start;
+}
+.carouselItemDesc{
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 20px;
+    font-family: OpenSans, sans-serif;
+    color: #101639B3;
+    text-transform: capitalize;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+.ourProjectCarousel{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.slider{
+    padding: 0 10px;
+
 }

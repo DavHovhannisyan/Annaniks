@@ -29,7 +29,7 @@ const TowsSection: FC = () => {
                                     }
                                 </h2>
                             </Grid>
-                            <Grid item lg={12} data-aos="zoom-in">
+                            <Grid item lg={12} data-aos="zoom-in"  data-aos-duration="2000">
                                 <WebSolutionItem img={img1} title={t("common:typesSolutions:info:0:infoTitle")}
                                                  desc={t("common:typesSolutions:info:0:infoDescriptions")}/>
                             </Grid>
@@ -37,17 +37,17 @@ const TowsSection: FC = () => {
                     </Grid>
                     <Grid item lg={4}>
                         <Grid container>
-                            <Grid item lg={12} zIndex={1} data-aos="zoom-in">
+                            <Grid item lg={12} zIndex={1} data-aos="zoom-in"  data-aos-duration="2000">
                                 <WebSolutionItem img={img2} title={t("common:typesSolutions:info:1:infoTitle")}
                                                  desc={t("common:typesSolutions:info:1:infoDescriptions")}/>
                             </Grid>
-                            <Grid marginTop={"20px"} item lg={12} data-aos="zoom-in">
+                            <Grid marginTop={"20px"} zIndex={1} item lg={12} data-aos="zoom-in"  data-aos-duration="2000">
                                 <WebSolutionItem img={img3} title={t("common:typesSolutions:info:2:infoTitle")}
                                                  desc={t("common:typesSolutions:info:2:infoDescriptions")}/>
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item lg={4} data-aos="zoom-in">
+                    <Grid item lg={4} data-aos="zoom-in"  data-aos-duration="2000">
                         <WebSolutionItem img={img4} title={t("common:typesSolutions:info:3:infoTitle")}
                                          desc={t("common:typesSolutions:info:3:infoDescriptions")}/>
                     </Grid>

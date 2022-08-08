@@ -12,3 +12,21 @@ body{
   margin: 0 auto;
   text-align: center;
 }
+.slick-list{
+  padding: 0 7px!important;
+}
+.slick-prev {
+  left: -45px!important;
+  top: 125px!important;
+}
+.slick-next {
+  right: -45px!important;
+  top: 125px!important;
+}
+footer{
+  background: #FFFFFF;
+  text-align: center;
+  font: normal normal normal 20px/32px Open Sans;
+  letter-spacing: 0;
+  color: #101639B3;
+}

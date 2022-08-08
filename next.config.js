@@ -12,6 +12,12 @@ const nextConfig = {
   compress: false,
   poweredByHeader: false,
   generateEtags: false,
+  compiler: {
+    styledComponents: {
+      displayName: true,
+      ssr: true,
+    },
+  },
 
 }
 
