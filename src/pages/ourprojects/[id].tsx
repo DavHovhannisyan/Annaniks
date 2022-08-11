@@ -24,8 +24,8 @@ const OurProject: NextPage = () => {
 
     return (
         <Layout props={props}>
-            <ProjectInfoMobile/>
-            {/*<ProjectInfoWebsite/>*/}
+            {/*<ProjectInfoMobile/>*/}
+            <ProjectInfoWebsite/>
         </Layout>
     );
 };

@@ -18,7 +18,7 @@ const DescriptionProject: FC = () => {
                     </div>
                     <div className={styles.big_img}>
                         <div className={styles.big_img_div}>
-                            <Image className={styles.avatar} priority layout="fill"
+                            <Image className={styles.avatar}  layout="fill"
                                    src='/images/ourProjectImg/phoneImg/d59bb6a.png' alt={'Phone_Image'}/>
                         </div>
                     </div>
