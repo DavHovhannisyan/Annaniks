@@ -343,6 +343,16 @@
         margin-bottom: 0;
     }
 
+    .id_bottom_image_container {
+        flex-direction: column;
+    }
+
+    .id_bottom_image_container_item {
+        width: 100%;
+        margin: 10px 0;
+        flex: none;
+    }
+
 }
 
 
