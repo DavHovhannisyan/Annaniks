@@ -6,7 +6,7 @@ import Link from "next/link";
 import {Box, Grid} from "@mui/material";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import flagUK from "../../public/images/flags/united-kingdom.svg";
-import flagRUS from "../../public/images/flags/russia (1).svg";
+import flagRUS from "../../public/images/flags/russia.svg";
 import Home from "../styles/Home.module.css";
 
 const Header: FC = () => {

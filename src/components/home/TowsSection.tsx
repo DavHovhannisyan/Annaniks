@@ -3,11 +3,11 @@ import {useTranslation} from "next-i18next";
 import Image from "next/image";
 import WebSolutionItem from "./WebSolutionItem";
 import {Box, Grid} from "@mui/material";
-import img1 from "../../../public/images/tows/Group 28.svg";
-import img2 from "../../../public/images/tows/Group 33.svg";
-import img3 from "../../../public/images/tows/Group 25.svg";
+import img1 from "../../../public/images/tows/Group28.svg";
+import img2 from "../../../public/images/tows/Group33.svg";
+import img3 from "../../../public/images/tows/Group25.svg";
 import img4 from "../../../public/images/tows/iconography.svg";
-import img5 from "../../../public/images/tows/Group 32.svg";
+import img5 from "../../../public/images/tows/Group32.svg";
 import Home from "../../styles/Home.module.css";
 
 

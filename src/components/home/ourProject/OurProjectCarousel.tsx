@@ -4,8 +4,8 @@ import {ourProjectSliderData} from "../../../constants/home/constants";
 import CarouselItem from "./CarouselItem";
 import Image from "next/image";
 import {Box, Grid, Container} from "@mui/material";
-import nextIcon from "../../../../public/images/carousel/Group 69184.svg"
-import prevIcon from "../../../../public/images/carousel/Group 69185.svg"
+import nextIcon from "../../../../public/images/carousel/Group69184.svg"
+import prevIcon from "../../../../public/images/carousel/Group69185.svg"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Home from "../../../styles/Home.module.css";

@@ -6,7 +6,6 @@ import {Box, Grid} from "@mui/material";
 import img from "../../../public/images/trusted/download.svg";
 import Home from "../../styles/Home.module.css";
 
-
 const TrustedSection: FC = () => {
     const {t} = useTranslation('common');
 
@@ -62,7 +61,7 @@ const TrustedSection: FC = () => {
                                     </p>
                                 </Grid>
                                 <Grid data-aos="fade-up"
-                                      data-aos-duration="2000" item lg={12} display={"flex"} alignItems={"flex-start"}>
+                                      data-aos-duration="2000" item lg={12}  display={"flex"} alignItems={"flex-start"}>
                                     <Image src={img} width={"36px"} height={"36px"}/>
                                     <p className={Home.trustedList}>
                                         {

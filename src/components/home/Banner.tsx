@@ -2,9 +2,9 @@ import {FC} from "react";
 import Image from "next/image";
 import {useTranslation} from "next-i18next";
 import {Box} from "@mui/material";
-import bannerImg1 from "../../../public/images/banner/Group 69114.png";
-import bannerImg2 from "../../../public/images/banner/Group 69189.png";
-import bannerImg3 from "../../../public/images/banner/Group 69188.png";
+import bannerImg1 from "../../../public/images/banner/Group69114.png";
+import bannerImg2 from "../../../public/images/banner/Group69189.png";
+import bannerImg3 from "../../../public/images/banner/Group69188.png";
 import Home from "../../styles/Home.module.css";
 
 const Banner: FC = () => {

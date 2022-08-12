@@ -13,7 +13,7 @@
 .banner {
     padding-top: 28px;
     padding-bottom: 28px;
-    background-image: url("../../public/images/banner/Group 69250.svg"), url("../../public/images/banner/Group 69165.svg");
+    background-image: url("../../public/images/banner/Group69250.svg"), url("../../public/images/banner/Group69165.svg");
     background-position: 100% 0, -50px 100%;
     background-repeat: no-repeat;
 }
@@ -121,7 +121,7 @@
 }
 
 .trusted {
-    background-image: url("../../public/images/trusted/Path 128902.svg");
+    background-image: url("../../public/images/trusted/Path128902.svg");
     background-repeat: no-repeat;
     height: 1006px;
     position: relative;
@@ -138,7 +138,7 @@
 }
 
 .trustedBg {
-    background-image: url("../../public/images/trusted/Mask Group 13@2x.png");
+    background-image: url("../../public/images/trusted/MaskGroup13@2x.png");
     background-position: 100% 169px;
     background-size: 1054px 838px;
     background-repeat: no-repeat;
@@ -170,7 +170,7 @@
 }
 
 .towsContent {
-    background-image: url("../../public/images/tows/Group 69162.svg");
+    background-image: url("../../public/images/tows/Group69162.svg");
     background-position: 0 30px;
     background-repeat: no-repeat;
 }
@@ -219,7 +219,7 @@
 }
 
 .bg {
-    background-image: url("../../public/images/trusted/Path 128902.svg");
+    background-image: url("../../public/images/trusted/Path128902.svg");
     background-repeat: no-repeat;
     height: 150px;
     position: relative;
@@ -242,14 +242,15 @@
 
 .ourProjectTitle {
     font-size: 60px;
-    font-family: OpenSans-Bold,sans-serif;
+    font-family: OpenSans-Bold, sans-serif;
     line-height: 68px;
     color: #101639;
 }
+
 .ourProjectDesc {
     font-size: 30px;
     line-height: 38px;
-    font-family: OpenSans-Regular,sans-serif;
+    font-family: OpenSans-Regular, sans-serif;
     color: #101639;
 }
 
@@ -259,44 +260,48 @@
     align-items: center;
     width: 240px;
     height: 60px;
-    background: #98FC03 ;
+    background: #98FC03;
     border-radius: 30px;
     margin-top: 30px;
     margin-bottom: 50px;
     transition: all ease 0.5s;
 }
+
 .ourProjectBtn:hover {
     transform: scale(0.95);
 }
-.Link{
+
+.Link {
     color: #101639;
-    font-family: OpenSans-Bold,sans-serif;
+    font-family: OpenSans-Bold, sans-serif;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .bgRevers {
-    background-image: url("../../public/images/trusted/Path 128902.svg");
+    background-image: url("../../public/images/trusted/Path128902.svg");
     background-repeat: no-repeat;
     height: 250px;
     width: 100%;
     transform: rotate(180deg);
     position: absolute;
-    bottom: -250px;
+    bottom: -248px;
 }
-.carouselItem{
+
+.carouselItem {
     width: 370px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
 }
-.carouselItemImageBlock{
+
+.carouselItemImageBlock {
     margin-top: 40px;
     /*position: relative;*/
 }
 
-.carouselItemImage{
+.carouselItemImage {
     width: 100%;
     height: 210px;
     background: #FFFFFF;
@@ -305,10 +310,10 @@
     position: relative;
 }
 
-.carouselItemImage:before{
+.carouselItemImage:before {
     content: "";
     position: absolute;
-    background-image: url("../../public/images/outProject/Group 69166.svg");
+    background-image: url("../../public/images/outProject/Group69166.svg");
     background-repeat: no-repeat;
     height: 100%;
     width: 400px;
@@ -316,7 +321,7 @@
     left: -30px;
 }
 
-.carouselItemTitle{
+.carouselItemTitle {
     font-weight: 800;
     font-size: 22px;
     font-family: OpenSans, sans-serif;
@@ -325,7 +330,8 @@
     margin-top: 15px;
     align-self: flex-start;
 }
-.carouselItemDesc{
+
+.carouselItemDesc {
     font-weight: normal;
     letter-spacing: 0;
     font-size: 20px;
@@ -335,13 +341,225 @@
     margin-top: 10px;
     align-self: flex-start;
 }
-.ourProjectCarousel{
+
+.ourProjectCarousel {
     max-width: 1600px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.slider{
+.slider {
     padding: 0 10px;
+}
 
+.ourTeamBlock {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ourTeamTitle > h2 {
+    font-size: 60px;
+    font-family: OpenSans-Bold, sans-serif;
+    line-height: 68px;
+    color: #fff;
+    letter-spacing: 0;
+}
+
+.ourTeamDesc > p {
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 30px;
+    letter-spacing: 0;
+    color: #FFFFFF
+}
+
+.swiperSlideItem {
+    max-width: 404px;
+    height: 520px !important;
+    background-image: url("../../public/images/ourTeam/4.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    filter: grayscale(100%);
+    transition: all 0.8s !important;
+    cursor: pointer;
+    margin: 40px 0;
+    z-index: 33;
+    position: relative;
+}
+
+.swiperSlideItem:hover {
+    transform: scale(1.03) !important;
+    filter: none;
+    box-shadow: inset 0 -200px 65px -1px rgba(0, 0, 0, 0.65);
+}
+
+.swiperSlideItem:hover .ourTeamCarouselItemInfo {
+    color: #FFFFFFB3;
+    display: block;
+}
+
+.swiperSlideItem:hover .ourTeamCarouselItemContext {
+    top: -20px;
+    padding-bottom: 20px;
+}
+
+
+.ourTeamCarouselItemTitle {
+    font: normal normal 800 24px/36px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.ourTeamCarouselItemDesc {
+    font: normal normal normal 18px/26px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFFB3;
+}
+
+.ourTeamCarouselItemInfo {
+    transition: all ease 0.6s !important;
+    margin: 25px 0 0;
+    font: normal normal normal 18px/26px Open Sans;
+    letter-spacing: 0;
+    color: transparent;
+    display: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 370px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.ourTeamCarouselItemContext {
+    width: 100%;
+    padding: 10px 0 15px;
+    position: relative;
+    transition: all ease 0.5s;
+    margin-bottom: 20px;
+    top: 20px;
+}
+
+.contactBlock {
+    width: 100%;
+    padding: 50px 0;
+    background: #ffffff;
+}
+
+.contactTitle {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: OpenSans, sans-serif;
+    letter-spacing: 0;
+    color: #101639;
+    text-transform: uppercase;
+}
+
+.contactNum {
+    font: normal normal 300 36px/68px Open Sans;
+    letter-spacing: 0;
+    color: #101639;
+    text-transform: uppercase;
+}
+
+.contactEmail {
+    font-weight: normal;
+    font-size: 24px;
+    font-family: OpenSans, sans-serif;
+    letter-spacing: 0;
+    color: #101639B3;
+}
+
+
+.contactPlace {
+    font: normal normal 300 36px/68px Open Sans;
+    letter-spacing: 0;
+    color: #101639;
+    text-transform: uppercase;
+}
+
+.contactPlaceInfo {
+    text-align: center;
+    font: normal normal normal 24px/32px Open Sans;
+    letter-spacing: 0;
+    color: #101639B3;
+    width: 33%;
+}
+
+.contactSocialInfo > ul {
+    margin-top: 10px;
+    display: flex;
+}
+
+.contactSocialInfo > ul > li {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #101639;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.contactSocialInfo > ul > li:hover {
+    background: #27336e;
+}
+
+.contactSocialInfo > ul > li:last-child {
+    margin-right: 0;
+}
+
+.contactUsBlock {
+    width: 100%;
+    padding: 100px 0;
+    background: #160A28;
+}
+
+.contactUsQuestion {
+    letter-spacing: 0;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: OpenSans, sans-serif;
+    color: #FFFFFF;
+}
+
+.contactUsHelp {
+    font-weight: normal;
+    font-size: 30px;
+    font-family: OpenSans, sans-serif;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.contactUsBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    background: #98FC03;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    transition: all ease 0.5s;
+    font: normal normal bold 22px/30px Open Sans;
+    letter-spacing: 0;
+    color: #101639;
+}
+.contactUsBtn:hover {
+    transform: scale(0.95);
 }
