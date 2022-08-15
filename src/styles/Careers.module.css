@@ -1,0 +1,197 @@
+.careers_top_container {
+    height: 800px;
+    background-image: url(../../public/images/carrers/43929a7.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 1110px;
+}
+
+.careers_main_contain {
+    padding: 0 110px;
+}
+
+.careers_bold_text {
+    font-family: OpenSans-Bold, sans-serif;
+    letter-spacing: 0;
+    color: #fff;
+    font-size: 60px;
+    line-height: 58px;
+    margin-bottom: 5px;
+}
+
+.careers_small_text {
+    text-align: left;
+    font-family: OpenSans-Regular, sans-serif;
+    letter-spacing: 0;
+    color: hsla(0, 2.8%, 42%, .6);
+    font-size: 30px;
+    line-height: 34px;
+    margin-top: 5px;
+}
+
+.join_button {
+    margin-top: 40px !important;
+    text-align: left;
+}
+
+.join_button a {
+    color: #101639;
+    text-decoration: none;
+    padding: 20px 70px;
+    border-radius: 30px !important;
+    font-family: OpenSans-Bold, sans-serif;
+    background-color: #98fc03 !important;
+    height: 60px !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+
+.our_values_subtitle {
+    text-align: center;
+    font-family: OpenSans-Regular, sans-serif;
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.our_value_cart {
+    margin: 15px auto;
+    width: 48%;
+    min-height: 190px;
+    background: #0b1131 0 0 no-repeat padding-box;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+}
+
+.our_value_cart_item {
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_value_cart_image {
+    min-width: 110px;
+    min-height: 110px;
+    background: #242946 0 0 no-repeat padding-box;
+}
+
+.our_value_cart_info_block {
+    padding: 0 30px;
+}
+
+.our_value_cart_info_block_title {
+    text-align: left;
+    font-family: OpenSans-SemiBold, sans-serif;
+    letter-spacing: 0;
+    color: #fff;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 5px;
+}
+
+.our_value_cart_info_block_subTitle {
+    text-align: left;
+    font-family: OpenSans-SemiBold, sans-serif;
+    letter-spacing: 0;
+    color: hsla(0, 0%, 100%, .4);
+    font-size: 20px;
+}
+
+.life_annaniks_cart_block {
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.life_annaniks_cart_container {
+    display: flex;
+    width: calc(100% / 4 - 10px);
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.life_annaniks_cart_container:nth-child(2n + 1) {
+    flex-direction: column-reverse;
+}
+
+.life_annaniks_cart_small_block, .life_annaniks_cart_medium_block, .life_annaniks_cart_larg_block {
+    width: 100%;
+    background: #0b1131 0 0 no-repeat padding-box;
+    margin: 15px 0;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+}
+
+.life_annaniks_cart_small_block {
+    height: 200px;
+}
+
+.life_annaniks_cart_medium_block {
+    height: 250px;
+
+}
+
+.life_annaniks_cart_larg_block {
+    height: 350px;
+
+}
+
+.position_cart_container {
+    padding-bottom: 150px;
+    flex-wrap: wrap !important;
+    display: flex !important;
+}
+
+.position_cart {
+    cursor: pointer;
+    width: 46%;
+    background: #0b1131 0 0 no-repeat padding-box;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    margin: 0 auto 30px;
+}
+
+.position_cart_item {
+    padding: 40px 30px;
+}
+
+.position_cart_top_title {
+    background-color: rgb(89, 146, 231);
+    font-family: OpenSans-Bold, sans-serif;
+    border-radius: 6px;
+    display: table;
+    margin-bottom: 30px;
+}
+
+.position_cart_top_title div {
+    color: rgb(94, 255, 238);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 9px 15px;
+    font-weight: 700;
+}
+
+.load_more_container {
+    display: none;
+    margin-bottom: 100px;
+}
+.load_more_button{
+    color: #101639;
+    font-family: OpenSans-Regular,sans-serif;
+    letter-spacing: 0;
+    border: none;
+    background: 0 0;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 30px;
+    border-radius: 30px!important;
+    background-color: #98fc03!important;
+    width: 240px!important;
+    height: 60px!important;
+    font-size: 22px!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+}
+.send_container{
+    padding-bottom: 100px;
+}

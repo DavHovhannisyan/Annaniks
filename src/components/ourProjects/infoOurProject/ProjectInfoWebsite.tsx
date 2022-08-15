@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import styles from "../../styles/OurProjectWebsite.module.css";
+import styles from "../../../styles/OurProjectWebsite.module.css";
 import Image from "next/image";
 
 const ProjectInfoWebsite: FC = () => {
@@ -13,7 +13,7 @@ const ProjectInfoWebsite: FC = () => {
 
                         <div className={styles.mac_image}>
                             <div className={styles.mac_absolute_image}></div>
-                            <Image  layout="fill" src='/images/ourProjectImg/macImage/mac.png'
+                            <Image priority  layout="fill" src='/images/ourProjectImg/macImage/mac.png'
                                    alt={'Phone_Image'}/>
                         </div>
                     </div>

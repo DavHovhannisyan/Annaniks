@@ -4,8 +4,8 @@ import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 import {useRouter} from "next/router";
 import Layout from "../../layout/Layout";
 import {props} from "../../constants/home/constants";
-import ProjectInfoMobile from "../../components/infoOurProject/ProjectInfoMobile";
-import ProjectInfoWebsite from "../../components/infoOurProject/ProjectInfoWebsite";
+import ProjectInfoMobile from "../../components/ourProjects/infoOurProject/ProjectInfoMobile";
+import ProjectInfoWebsite from "../../components/ourProjects/infoOurProject/ProjectInfoWebsite";
 
 
 export const getServerSideProps: GetServerSideProps = async (context) => {

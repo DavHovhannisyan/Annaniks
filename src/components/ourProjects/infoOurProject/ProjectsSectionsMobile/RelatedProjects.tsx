@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import styles from '../../../styles/OurProjectMobile.module.css'
+import styles from '../../../../styles/OurProjectMobile.module.css'
 
 const RelatedProjects:FC = () => {
 
