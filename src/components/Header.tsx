@@ -67,7 +67,9 @@ const Header: FC = () => {
                             {
                                 !arrowActive && <div className={Home.dropDawnSelect}>
                                     <div className={Home.dropDawnOptionsContainer}>
-                                        <Link href={"/"}
+                                        <Link href={
+                                            router.pathname
+                                        }
                                               locale="en-UK">
                                             <a>
                                                 <div onClick={(): void => {
@@ -81,7 +83,9 @@ const Header: FC = () => {
                                                     <div className={Home.lang}>English</div>
                                                 </div>
                                             </a></Link>
-                                        <Link href={"/"} locale={"ru-RU"}>
+                                        <Link href={
+                                            router.pathname
+                                        } locale={"ru-RU"}>
                                             <a>
                                                 <div onClick={(): void => {
                                                     setImage(flagRUS)

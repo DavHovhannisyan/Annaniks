@@ -1,6 +1,6 @@
 import React, {FC, useState} from 'react';
 import styles from '../../../../styles/OurProjects.module.css'
-import {RiArrowDropDownLine} from "react-icons/Ri";
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 const Select: FC = () => {
     const [show, setShow] = useState<boolean>(false)
@@ -16,7 +16,7 @@ const Select: FC = () => {
     return (
         <div onClick={handleClick} className={styles.search_input_select}>
             <p className={styles.custom_options_text_1}>{text}</p>
-            <RiArrowDropDownLine/>
+            <ArrowDropDownIcon/>
             {show ? <div data-aos="flip-down"
                          data-aos-easing="linear"
                          data-aos-duration="500" className={styles.custom_select_options}>
