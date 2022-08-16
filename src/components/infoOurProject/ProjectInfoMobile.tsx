@@ -3,7 +3,7 @@ import DescriptionProject from "./ProjectsSectionsMobile/DescriptionProject";
 import MobileSizes from "./ProjectsSectionsMobile/MobileSizes";
 import DescriptionProject2 from "./ProjectsSectionsMobile/DescriptionProject2";
 import RelatedProjects from "./ProjectsSectionsMobile/RelatedProjects";
-import styles from '../../../styles/OurProjectMobile.module.css'
+import styles from '../../styles/OurProjectMobile.module.css'
 
 const ProjectInfoMobile:FC = () => {
     return (
