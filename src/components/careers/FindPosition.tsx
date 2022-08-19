@@ -3,8 +3,8 @@ import {useRouter} from "next/router";
 import parse from 'html-react-parser';
 import {useTranslation} from "next-i18next";
 import {Box, Button, Typography} from "@mui/material";
-import {GoLocation} from 'react-icons/Go'
-import {AiOutlineClockCircle} from 'react-icons/Ai'
+import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
+import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
 import styles from "../../styles/Careers.module.css";
 
 
@@ -36,7 +36,7 @@ const FindPosition = () => {
                         </Typography>
                         <Box sx={{display: 'flex', marginTop: '10px'}}>
                             <Box sx={{display: 'flex', marginRight: '60px'}}>
-                                <GoLocation style={{color: 'hsla(0,0%,100%,.6)'}}/>
+                                <FmdGoodOutlinedIcon style={{color: 'hsla(0,0%,100%,.6)'}}/>
                                 <Box sx={{
                                     fontFamily: 'OpenSans-Bold,sans-serif',
                                     color: 'hsla(0,0%,100%,.6)',
@@ -44,7 +44,7 @@ const FindPosition = () => {
                                 }}>Gyumri</Box>
                             </Box>
                             <Box sx={{display: 'flex'}}>
-                                <AiOutlineClockCircle style={{color: 'hsla(0,0%,100%,.6)'}}/>
+                                <AccessTimeOutlinedIcon style={{color: 'hsla(0,0%,100%,.6)'}}/>
                                 <Box component="span" sx={{
                                     fontFamily: 'OpenSans-Bold,sans-serif',
                                     color: 'hsla(0,0%,100%,.6)',
