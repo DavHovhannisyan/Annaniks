@@ -17,7 +17,7 @@
 .topBar {
     padding: 18px 110px;
     background-image: url(../../public/images/ourProjectImg/0c2f3f3.svg), url(../../public/images/ourProjectImg/5812f71.svg);
-    background-position: 100% 0, 0 100%;
+    background-position: 100% 0, 0 120%;
     background-repeat: no-repeat;
 }
 
@@ -139,7 +139,6 @@
 .our_projects_section {
     width: 100%;
     margin-top: -150px;
-    background-position: 0 500px;
 }
 
 .background_img {
@@ -380,6 +379,9 @@
 }
 
 @media only screen and (min-width: 1366px) {
+    .our_projects_carousel_item {
+        max-width: calc(100% / 4 - 15px);
+    }
 
 }
 
@@ -424,6 +426,7 @@
     .our_projects_carousel_item {
         max-width: calc(100% / 2 - 15px);
     }
+
     .our_projects_carousel_item:nth-child(2n + 1) {
         margin-right: 15px;
     }
@@ -455,6 +458,7 @@
     .our_projects_carousel_item {
         max-width: calc(100% / 1);
     }
+
     .topBar {
         background-position: 100% 0, 0 100%;
         background-size: 200px, 200px;
@@ -488,9 +492,11 @@
     .search_input_select {
         width: 100%;
     }
+
     .custom_select_options {
         width: 100%;
     }
+
     .our_projects_section {
         width: 100%;
         margin-top: 0;
@@ -504,6 +510,7 @@
         background-color: #fff;
         padding: 50px 50px;
     }
+
     .our_projects_carousel_item:nth-child(n) {
         margin-right: 0;
     }
@@ -563,6 +570,7 @@
         background-color: #fff;
         padding: 50px 30px;
     }
+
     .our_projects_carousel_item:nth-child(n) {
         margin-right: 0;
     }

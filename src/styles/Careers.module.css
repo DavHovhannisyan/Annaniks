@@ -47,6 +47,10 @@
     text-transform: uppercase !important;
 }
 
+.content_main_center_block {
+    padding: 0 110px;
+}
+
 .our_values_subtitle {
     text-align: center;
     font-family: OpenSans-Regular, sans-serif;
@@ -175,23 +179,327 @@
     display: none;
     margin-bottom: 100px;
 }
-.load_more_button{
+
+.load_more_button {
     color: #101639;
-    font-family: OpenSans-Regular,sans-serif;
+    font-family: OpenSans-Regular, sans-serif;
     letter-spacing: 0;
     border: none;
     background: 0 0;
     display: flex;
     align-items: center;
     margin: 0 auto 30px;
-    border-radius: 30px!important;
-    background-color: #98fc03!important;
-    width: 240px!important;
-    height: 60px!important;
-    font-size: 22px!important;
-    font-weight: 700!important;
-    text-transform: uppercase!important;
+    border-radius: 30px !important;
+    background-color: #98fc03 !important;
+    width: 240px !important;
+    height: 60px !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
 }
-.send_container{
+
+.send_container {
     padding-bottom: 100px;
+}
+
+
+@media only screen and (max-width: 1366px) {
+    .careers_top_container {
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: 1061px;
+    }
+
+    .careers_main_contain {
+        padding: 0 65px;
+    }
+
+    .careers_bold_text {
+        font-size: 50px;
+    }
+
+    .careers_small_text {
+        font-size: 26px;
+    }
+
+    .content_main_center_block {
+        padding: 0 65px;
+    }
+
+    .our_values_subtitle {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .our_value_cart_info_block {
+        padding: 0 40px 0 30px;
+    }
+
+    .our_value_cart_info_block_title {
+        font-size: 22px;
+    }
+
+    .our_value_cart_info_block_subTitle {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .position_cart_top_title {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .careers_top_container {
+        height: 630px;
+        background-image: url(../../public/images/carrers/6c8c16f.png);
+    }
+
+    .careers_main_contain {
+        padding: 0 62px;
+    }
+
+    .careers_bold_text {
+        font-size: 40px;
+    }
+
+    .careers_small_text {
+        font-size: 24px;
+    }
+
+    .content_main_center_block {
+        padding: 0 62px;
+    }
+
+    .our_values_subtitle {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+
+    .padding_bottom {
+        padding-bottom: 100px
+    }
+
+    .our_value_cart_info_block {
+        padding: 0 0 0 15px;
+    }
+
+    .our_value_cart_info_block_title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .our_value_cart_info_block_subTitle {
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .our_value_cart {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .careers_top_container {
+        height: 740px;
+    }
+
+    .careers_main_contain {
+        padding: 0 24px;
+    }
+
+    .our_values_subtitle {
+        padding-bottom: 50px;
+        line-height: 32px;
+    }
+
+    .position_cart_container {
+        padding-bottom: 0;
+    }
+
+    .position_cart {
+        width: 100%;
+    }
+    .load_more_container{
+        display: block;
+    }
+    .life_annaniks_cart_small_block {
+        height: 180px;
+    }
+
+    .life_annaniks_cart_medium_block {
+        height: 220px;
+
+    }
+
+    .life_annaniks_cart_larg_block {
+        height: 320px;
+
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .careers_top_container {
+        background-image: url(../../public/images/carrers/43929a7.png);
+        background-position: 100% 100%;
+    }
+    .content_main_center_block {
+        padding: 0 25px;
+    }
+    .careers_bold_text {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .careers_small_text {
+        font-size: 19px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+
+    .our_values_subtitle {
+        font-size: 19px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .join_button{
+        text-align: center;
+    }
+
+    .join_button a {
+        padding: 15px 40px;
+    }
+
+    .our_value_cart_info_block {
+        padding: 0
+    }
+
+    .our_value_cart_info_block_title {
+        margin-top: 23px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .our_value_cart_info_block_subTitle {
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .life_annaniks_cart_block {
+        padding-bottom: 100px;
+        flex-wrap: wrap;
+    }
+
+    .life_annaniks_cart_container {
+        display: flex;
+        width: calc(100% / 2 - 10px);
+        margin-right: 10px;
+    }
+
+    .our_value_cart_item {
+        margin: 0 0 50px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our_value_cart {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .load_more_button {
+        margin: 0 auto 0;
+        width: 200px !important;
+        height: 50px !important;
+        font-size: 20px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 374px) {
+    .careers_top_container {
+        background-image: url(../../public/images/carrers/496c96c.png);
+        background-size: 310px;
+        height: 530px;
+    }
+
+    .content_main_center_block {
+        padding: 0 20px;
+    }
+    .careers_bold_text {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .careers_small_text {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+
+    .our_values_subtitle {
+        font-size: 18px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .join_button{
+        text-align: center;
+    }
+
+    .join_button a {
+        padding: 10px 35px;
+    }
+
+    .our_value_cart_info_block {
+        padding: 0
+    }
+
+    .our_value_cart_info_block_title {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .our_value_cart_info_block_subTitle {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .life_annaniks_cart_block {
+        padding-bottom: 100px;
+        flex-wrap: wrap;
+
+    }
+
+    .life_annaniks_cart_container {
+        display: flex;
+        width: calc(100% / 2 - 10px);
+        margin-right: 10px;
+    }
+
+    .our_value_cart_item {
+        margin: 0 0 50px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our_value_cart {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .load_more_button {
+        margin: 0 auto 0;
+        width: 200px !important;
+        height: 50px !important;
+        font-size: 20px !important;
+    }
+
 }
