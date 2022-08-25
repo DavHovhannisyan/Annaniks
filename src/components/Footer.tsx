@@ -9,7 +9,7 @@ const Footer: FC = () => {
             <Container maxWidth={"lg"}>
                 <Grid container>
                     <Grid padding={"20px"} item xs={12}>
-                        <p>
+                        <p className={"footer-content"}>
                             {t("common:copyright")}
                         </p>
                     </Grid>

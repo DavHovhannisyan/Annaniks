@@ -61,6 +61,7 @@
     top: -80px;
     left: 50%;
     z-index: 3;
+    transform: scale(1.3) !important;
 }
 
 .imgItem3 {
@@ -121,28 +122,40 @@
 }
 
 .trusted {
+    width: 100%;
+}
+
+.trustedTopBg {
     background-image: url("../../public/images/trusted/Path128902.svg");
     background-repeat: no-repeat;
-    height: 1006px;
+    height: 150px;
+    position: relative;
+    top: -179px;
+}
+
+.trustedContent {
+    background: #fff;
     position: relative;
     top: -180px;
 }
 
+
 .trustedContentBlock {
     padding-left: 110px;
+    margin-top: 100px;
 }
 
 .trustedBlock {
     position: relative;
-    top: 279px;
+    top: 10px;
 }
 
 .trustedBg {
     background-image: url("../../public/images/trusted/MaskGroup13@2x.png");
-    background-position: 100% 169px;
-    background-size: 1054px 838px;
+    background-position: 100% 35px;
+    background-size: 1180px 914px;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 948px;
 }
 
 .trustedTitle {
@@ -298,7 +311,6 @@
 
 .carouselItemImageBlock {
     margin-top: 40px;
-    /*position: relative;*/
 }
 
 .carouselItemImage {
@@ -560,6 +572,1162 @@
     letter-spacing: 0;
     color: #101639;
 }
+
 .contactUsBtn:hover {
     transform: scale(0.95);
+}
+
+@media screen and (max-width: 1400px) {
+    .headingTitle {
+        font: normal normal 800 50px/58px Open Sans, sans-serif;
+        max-width: 920px;
+
+    }
+
+    .banner {
+        background-position: 103% -117px, -94px 104%;
+    }
+
+    .imgItem3 {
+        top: 30px;
+    }
+
+    .headingSubTitle {
+        font: normal normal normal 26px/34px Open Sans, sans-serif;
+        width: 920px;
+    }
+
+    .trustedTopBg {
+        background-image: url("../../public/images/trusted/Path128902.svg");
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        top: -180px;
+        background-size: cover;
+    }
+
+    .trustedContent {
+        background: #fff;
+        position: relative;
+        top: -180px;
+    }
+
+    .trustedBlock {
+        position: relative;
+        top: 10px;
+    }
+
+    .trustedBg {
+        background-position: 100% 57px;
+        background-size: 799px 704px;
+        height: 760px;
+    }
+
+
+    .trustedContentBlock {
+        padding-left: 65px;
+    }
+
+    .trustedTitle {
+        font: normal normal 800 50px/58px Open Sans, sans-serif;
+    }
+
+    .trustedList {
+        font: normal normal 600 22px/30px Open Sans, sans-serif;
+    }
+
+    .tows {
+        top: -180px;
+        padding: 0 65px;
+    }
+
+    .towsTitle {
+        font-size: 50px;
+    }
+
+    .webSolutionItem {
+        width: 396px;
+        height: 410px;
+        padding: 20px;
+    }
+
+    .webSolutionItemTitle {
+        margin-top: 20px;
+        font: normal normal 600 22px/36px Open Sans, sans-serif;
+    }
+
+    .webSolutionItemDesc {
+        font: normal normal normal 16px/24px Open Sans, sans-serif;
+        width: 356px;
+    }
+
+    .bg {
+        background-size: 1366px 813px;
+    }
+
+    .bgRevers {
+        height: 203px;
+        bottom: -200px;
+        background-size: cover;
+    }
+
+    .imgMatrix {
+        top: 85px;
+        right: 324px;
+        z-index: 0;
+    }
+
+    .ourProjectTitle {
+        font-size: 50px;
+    }
+
+    .ourProjectDesc {
+        width: 920px;
+        font-size: 26px
+    }
+
+    .ourProjectCarousel {
+        max-width: 1220px;
+    }
+
+    .ourTeamTitle > h2 {
+        font-size: 50px;
+    }
+
+    .ourTeamDesc > p {
+        font-size: 26px;
+    }
+
+    .swiperSlideItem {
+        max-width: 288px;
+        height: 371px !important;
+    }
+
+    .contactTitle {
+        font-size: 36px;
+    }
+
+    .contactNum {
+        font: normal normal 300 32px/68px Open Sans;
+    }
+
+    .contactEmail {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .contactPlace {
+        font: normal normal 300 32px/68px Open Sans;
+    }
+
+    .contactPlaceInfo {
+        font: normal normal normal 20px/30px Open Sans;
+    }
+
+    .contactUsQuestion {
+        font-size: 50px;
+    }
+
+    .contactUsHelp {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width: 1290px) {
+    .headingTitle {
+        max-width: 860px;
+
+    }
+
+    .headingSubTitle {
+        width: 860px;
+    }
+
+    .banner {
+        background-position: 127% -131px, -121px 107%;
+    }
+
+    .imgItem1 {
+        top: 30px;
+        left: 11px;
+    }
+
+    .imgItem2 {
+        top: 40px;
+        left: 50%;
+    }
+
+    .imgItem3 {
+        top: 105px;
+    }
+
+    .trustedTopBg {
+        background-image: url("../../public/images/trusted/Path128902.svg");
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        top: -180px;
+        background-size: cover;
+    }
+
+    .trustedContent {
+        background: #fff;
+        position: relative;
+        top: -180px;
+    }
+
+    .trustedBlock {
+        position: relative;
+        top: 10px;
+    }
+
+    .trustedBg {
+        background-position: 100% 57px;
+        background-size: 799px 704px;
+        height: 760px;
+    }
+
+
+    .trustedContentBlock {
+        padding-left: 65px;
+    }
+
+    .trustedTitle {
+        font: normal normal 800 50px/58px Open Sans, sans-serif;
+    }
+
+    .trustedList {
+        font: normal normal 600 22px/30px Open Sans, sans-serif;
+    }
+
+    .tows {
+        top: -180px;
+        padding: 0 65px;
+    }
+
+    .towsTitle {
+        font-size: 50px;
+    }
+
+    .webSolutionItem {
+        width: 370px;
+        height: 410px;
+        padding: 20px;
+    }
+
+    .webSolutionItemTitle {
+        margin-top: 20px;
+        font: normal normal 600 22px/36px Open Sans, sans-serif;
+    }
+
+    .webSolutionItemDesc {
+        font: normal normal normal 16px/24px Open Sans, sans-serif;
+        width: 330px;
+    }
+
+    .carouselItem {
+        width: 326px;
+    }
+
+
+    .carouselItemImage:before {
+        background-size: 379px 111px;
+        left: -27px;
+    }
+
+
+    .bg {
+        background-size: 1366px 813px;
+    }
+
+    .bgRevers {
+        height: 203px;
+        bottom: -200px;
+        background-size: cover;
+    }
+
+    .imgMatrix {
+        right: 302px;
+    }
+
+    .ourProjectTitle {
+        font-size: 50px;
+    }
+
+    .ourProjectDesc {
+        width: 830px;
+        font-size: 26px
+    }
+
+    .ourProjectCarousel {
+        max-width: 1120px;
+    }
+
+    .ourTeamTitle > h2 {
+        font-size: 50px;
+    }
+
+    .ourTeamDesc > p {
+        font-size: 26px;
+    }
+
+    .swiperSlideItem {
+        max-width: 288px;
+        height: 371px !important;
+    }
+
+    .contactTitle {
+        font-size: 36px;
+    }
+
+    .contactNum {
+        font: normal normal 300 32px/68px Open Sans;
+    }
+
+    .contactEmail {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .contactPlace {
+        font: normal normal 300 32px/68px Open Sans;
+    }
+
+    .contactPlaceInfo {
+        font: normal normal normal 20px/30px Open Sans;
+    }
+
+    .contactUsQuestion {
+        font-size: 50px;
+    }
+
+    .contactUsHelp {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .headingTitle {
+        max-width: 784px;
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .menuItem {
+        font: normal normal bold 16px/22px Open Sans, sans-serif;
+    }
+
+    .headingSubTitle {
+        max-width: 784px;
+        font: normal normal normal 24px/32px Open Sans;
+    }
+
+    .banner {
+        background-position: 283% -250px, -185px 92%;
+    }
+
+    .bannerImg {
+        top: -100px;
+    }
+
+    .imgItem1 {
+        top: 30px;
+        left: 11px;
+    }
+
+    .imgItem2 {
+        top: 40px;
+        left: 50%;
+    }
+
+    .imgItem3 {
+        top: 50px;
+        left: 10px;
+    }
+
+    .trusted {
+        height: 585px;
+    }
+
+    .trustedTopBg {
+        height: 183px;
+        top: -374px;
+        background-size: cover;
+    }
+
+    .trustedContent {
+        top: -410px;
+    }
+
+    .trustedBlock {
+        position: relative;
+        top: 10px;
+    }
+
+    .trustedBg {
+        background-position: 100% 85px;
+        background-size: 644px 576px;
+        height: 661px;
+    }
+
+    .trustedContentBlock {
+        padding-left: 65px;
+    }
+
+    .trustedTitle {
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .trustedList {
+        font: normal normal 600 16px/24px Open Sans, sans-serif;
+    }
+
+    .tows {
+        top: -180px;
+        padding: 0 65px;
+    }
+
+    .towsContent {
+        background-position: -33px 30px;
+        background-size: 236px 106px;
+    }
+
+    .towsTitle {
+        margin-top: 88px;
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .webSolutionItem {
+        width: 436px;
+        height: 370px;
+        padding: 20px;
+    }
+
+    .webSolutionItemTitle {
+        font: normal normal 600 20px/18px Open Sans, sans-serif;
+    }
+
+    .webSolutionItemDesc {
+        font: normal normal normal 16px/24px Open Sans, sans-serif;
+        width: 396px;
+    }
+
+    .carouselItem {
+        width: 260px;
+    }
+
+
+    .carouselItemImage:before {
+        background-size: 303px 111px;
+        left: -22px;
+    }
+
+    .carouselItemImage {
+        height: 150px;
+    }
+
+
+    .bg {
+        background-size: 1024px 553px;
+    }
+
+    .bgRevers {
+        height: 162px;
+        bottom: -135px;
+        background-size: cover;
+    }
+
+    .imgMatrix {
+        display: none;
+    }
+
+    .ourProjectTitle {
+        margin-top: 60px;
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .ourProjectDesc {
+        width: 784px;
+        margin-top: 25px;
+        font: normal normal normal 24px/32px Open Sans, sans-serif;
+    }
+
+    .ourProjectCarousel {
+        max-width: 890px;
+    }
+
+    .ourTeamTitle > h2 {
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .ourTeamBlock {
+        margin-top: 0;
+        padding: 0 0 76px;
+        position: relative;
+        top: -80px;
+    }
+
+    .ourTeamDesc > p {
+        margin-top: 20px;
+        font: normal normal normal 24px/32px Open Sans, sans-serif;
+    }
+
+    .swiperSlideItem {
+        max-width: 260px;
+        height: 263px !important;
+    }
+
+    .swiperSlideItem:hover {
+        transform: scale(1.03) !important;
+        box-shadow: inset 0 -100px 40px 0 rgba(0, 0, 0, 0.65);
+    }
+
+    .contactTitle {
+        font-size: 28px;
+    }
+
+    .contactNum {
+        font-size: 24px;
+    }
+
+    .contactEmail {
+        font-size: 16px;
+    }
+
+    .contactPlace {
+        font-size: 24px;
+    }
+
+    .contactPlaceInfo {
+        font-size: 16px;
+    }
+
+    .contactUsQuestion {
+        font-size: 40px;
+    }
+
+    .contactUsHelp {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .header {
+        padding: 20px 24px 20px 62px;
+    }
+
+    .headingTitle {
+        max-width: 784px;
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .menuItem {
+        font: normal normal bold 16px/22px Open Sans, sans-serif;
+    }
+
+    .headingSubTitle {
+        max-width: 754px;
+        font: normal normal normal 24px/32px Open Sans;
+    }
+
+    .banner {
+        background-position: -107% -411px, -111px 74%;
+    }
+
+    .bannerImg {
+        top: -80px;
+    }
+
+    .imgItem1 {
+        display: none;
+    }
+
+    .imgItem2 {
+        left: 42%;
+        right: 50px;
+        transform: scale(1.2) !important;
+    }
+
+    .imgItem3 {
+        top: 50px;
+        left: 10px;
+    }
+
+    .trusted {
+        height: 389px;
+    }
+
+    .trustedTopBg {
+        top: -499px;
+    }
+
+    .trustedContent {
+        top: -500px;
+    }
+
+    .trustedBlock {
+        position: relative;
+        top: 10px;
+    }
+
+    .trustedBg {
+        background-image: none;
+        height: 555px;
+    }
+
+    .trustedContentBlock {
+        padding-left: 0;
+    }
+
+    .trustedTitle {
+        margin-bottom: 80px;
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .trustedList {
+        margin-top: 10px;
+        width: 224px;
+        text-align: center;
+        font: normal normal 600 14px/22px Open Sans, sans-serif;
+    }
+
+    .tows {
+        padding: 0 24px;
+    }
+
+    .towsContent {
+        background-position: -33px 30px;
+        background-size: 236px 106px;
+    }
+
+    .towsTitle {
+        margin-top: 88px;
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .webSolutionItem {
+        width: 348px;
+        height: 408px;
+        padding: 20px;
+    }
+
+    .webSolutionItemTitle {
+        font: normal normal 600 20px/36px Open Sans, sans-serif;
+    }
+
+    .webSolutionItemDesc {
+        font: normal normal normal 16px/23px Open Sans, sans-serif;
+        width: 308px;
+        padding-bottom: 10px;
+    }
+
+    .ourProjectBlock {
+        padding: 0;
+    }
+
+    .carouselItem {
+        width: 260px;
+    }
+
+    .ourTeamCarouselItemTitle {
+        font-size: 16px;
+    }
+
+    .ourTeamCarouselItemInfo,
+    .ourTeamCarouselItemDesc {
+        font-size: 14px;
+    }
+
+
+    .carouselItemImage:before {
+        background-size: 303px 111px;
+        left: -22px;
+    }
+
+    .carouselItemImage {
+        height: 150px;
+    }
+
+
+    .bg {
+        background-size: 768px 506px;
+    }
+
+    .bgRevers {
+        height: 162px;
+        bottom: -135px;
+        background-size: cover;
+    }
+
+    .imgMatrix {
+        display: none;
+    }
+
+    .ourProjectTitle {
+        margin-top: 60px;
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .ourProjectDesc {
+        margin-top: 25px;
+        font: normal normal normal 24px/32px Open Sans, sans-serif;
+    }
+
+    .ourProjectCarousel {
+        max-width: 610px;
+    }
+
+    .ourTeamTitle > h2 {
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .ourTeamBlock {
+        margin-top: 0;
+        padding: 0 0 76px;
+        position: relative;
+        top: -80px;
+    }
+
+    .ourTeamDesc > p {
+        margin-top: 20px;
+        font: normal normal normal 24px/32px Open Sans, sans-serif;
+    }
+
+    .swiperSlideItem {
+        max-width: 260px;
+        height: 263px !important;
+    }
+
+    .swiperSlideItem:hover {
+        transform: scale(1.03) !important;
+        filter: none;
+        box-shadow: inset 0 -100px 40px 0 rgba(0, 0, 0, 0.65);
+    }
+
+    .contactTitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .contactNum {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .contactEmail {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contactPlace {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .contactPlaceInfo {
+        font-size: 14px;
+        line-height: 20px;
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        width: 100%;
+        position: fixed;
+        background: transparent;
+        z-index: 9999;
+    }
+
+    .headerBg {
+        background: rgb(22, 10, 40) !important;
+    }
+
+    .imgItem1 {
+        display: none;
+    }
+
+    .imgItem2 {
+        display: none;
+    }
+
+    .imgItem3 {
+        display: none;
+    }
+
+    .burgerBtn {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        position: relative;
+    }
+
+    .burgerBtn > span {
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+
+    .hideItem {
+        height: 0 !important;
+    }
+
+    .rotateItem {
+        transform: rotate(135deg);
+        transition: all ease 0.7s;
+    }
+
+    .rotateItemFirst {
+        position: absolute;
+        bottom: 0;
+        transform: rotate(45deg);
+        transition: all ease 0.7s;
+    }
+
+    .burgerBtnAlternative {
+        top: -10px;
+    }
+
+    .mobileMenuBlock {
+        width: 110%;
+        height: 100%;
+        background-color: white;
+        transform: translateX(-105%);
+        position: fixed;
+        margin-top: 78px;
+        padding: 20px;
+        top: 0;
+        transition: all ease 0.7s;
+        background-repeat: no-repeat;
+        background-position: 0 100%, 90% 80%;
+        background-image: url("../../public/images/banner/mobile.svg");
+    }
+
+    .transition {
+        transform: translateX(-5%) !important;
+    }
+
+    .mobileMenuItem {
+        font: normal normal bold 18px/22px Open Sans;
+        letter-spacing: 0;
+        cursor: pointer;
+        color: #101639;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header {
+        padding: 22px 20px;
+        background: transparent;
+    }
+
+    .menuItem {
+        font: normal normal bold 18px/22px Open Sans, sans-serif;
+        letter-spacing: 0;
+        cursor: pointer;
+        color: #101639;
+        margin-bottom: 25px;
+    }
+
+    .menuItem:hover {
+        font: normal normal bold 18px/22px Open Sans, sans-serif;
+        letter-spacing: 0;
+        color: #10163999;
+    }
+
+    .headingTitle {
+        width: 278px;
+        font: normal normal 800 28px/34px Open Sans, sans-serif;
+    }
+
+    .headingSubTitle {
+        width: 294px;
+        font: normal normal normal 18px/26px Open Sans, sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF99;
+    }
+
+    .mobileMenuBlock {
+        width: 110%;
+        transform: translateX(-105%);
+        margin-top: 74px;
+        background-position: 80% 50%, 0 100%;
+    }
+
+    .transition {
+        transform: translateX(-5%) !important;
+    }
+
+    .banner {
+        background-position: 101% -150px, 100% 103%;
+        background-size: 200px 455px;
+    }
+
+    .trusted {
+        height: 389px;
+    }
+
+    .trustedTopBg {
+        top: -680px;
+        height: 40px;
+    }
+
+    .trustedContent {
+        top: -680px;
+    }
+
+    .trustedBlock {
+        position: relative;
+        top: 10px;
+    }
+
+    .trustedBg {
+        background-image: none;
+        height: 878px;
+    }
+
+    .trustedContentBlock {
+        margin-top: 30px;
+    }
+
+    .trustedTitle {
+        width: 300px;
+        margin-bottom: 40px;
+        font: normal normal 800 28px/34px Open Sans, sans-serif;
+        letter-spacing: 0;
+        color: #101639;
+        text-align: center;
+    }
+
+    .trustedList {
+        margin-top: 10px;
+        width: 278px;
+        text-align: center;
+        letter-spacing: 0;
+        color: #101639;
+        font: normal normal 600 14px/22px Open Sans, sans-serif;
+    }
+
+    .tows {
+        padding: 0;
+    }
+
+    .towsContent {
+        background-position: -33px 30px;
+        background-size: 185px 80px;
+    }
+
+    .towsTitle {
+        margin-top: 100px;
+        width: 278px;
+        text-align: center;
+        font: normal normal 800 28px/34px Open Sans, sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF;
+    }
+
+    .webSolutionItem {
+        background: transparent;
+        text-align: center;
+        width: 348px;
+        height: 408px;
+        padding: 20px;
+    }
+
+    .webSolutionItemTitle {
+        text-align: center;
+        font: normal normal 600 18px/36px Open Sans, sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF;
+    }
+
+    .webSolutionItemDesc {
+        text-align: center;
+        font: normal normal normal 16px/23px Open Sans, sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF66;
+        padding-bottom: 10px;
+    }
+
+    .ourProjectBlock {
+        padding: 0;
+    }
+    .ourProjectBtn{
+        width: 200px;
+        height: 50px;
+    }
+    .Link {
+        color: #101639;
+        font: normal normal bold 20px/27px Open Sans,sans-serif;
+        letter-spacing: 0;
+    }
+
+    .carouselItem {
+        width: 260px;
+    }
+    .carouselItemTitle{
+        font: normal normal 800 14px/26px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #101639;
+        margin: 10px auto 0;
+    }
+    .carouselItemDesc{
+        font: normal normal normal 14px/26px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #101639;
+        margin: 0 auto;
+    }
+
+
+    .carouselItemImage:before {
+        background-size: 303px 111px;
+        left: -22px;
+    }
+
+    .carouselItemImage {
+        height: 150px;
+    }
+
+    .bg {
+        background-size: 425px 448px;
+    }
+
+    .bgRevers {
+        height: 135px;
+        bottom: -135px;
+        background-size: cover;
+    }
+
+    .imgMatrix {
+        display: none;
+    }
+
+    .ourProjectTitle {
+        color: #101639;
+        font: normal normal 800 28px/34px Open Sans, sans-serif;
+    }
+
+    .ourProjectDesc {
+        width: 280px;
+        text-align: center;
+        letter-spacing: 0;
+        color: #101639;
+        font: normal normal normal 18px/26px Open Sans, sans-serif;
+    }
+
+    .ourProjectCarousel {
+        max-width: 333px;
+    }
+
+    .ourTeamCarouselItemTitle {
+        font-size: 16px;
+    }
+
+    .ourTeamCarouselItemInfo,
+    .ourTeamCarouselItemDesc {
+        font-size: 14px;
+    }
+
+    .ourTeamTitle > h2 {
+        font: normal normal 800 28px/34px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF;
+    }
+
+    .ourTeamBlock {
+        margin-top: 0;
+        padding: 0;
+        position: relative;
+        top: -80px;
+    }
+
+    .ourTeamDesc > p {
+        margin-top: 20px;
+        text-align: center;
+        width: 260px;
+        font: normal normal normal 18px/26px Open Sans;
+        letter-spacing: 0;
+        color: #FFFFFF;
+    }
+
+    .swiperSlideItem {
+        width: 134px;
+        height: 172px !important;
+        margin: 0;
+    }
+    .ourTeamCarouselItemTitle{
+        text-align: left;
+    }
+    .ourTeamCarouselItemDesc{
+        text-align: left;
+    }
+
+    .swiperSlideItem:hover {
+        transform: scale(1.03) !important;
+        filter: none;
+        box-shadow: inset 0 -100px 40px 0 rgba(0, 0, 0, 0.65);
+    }
+
+    .contactTitle {
+        text-align: center;
+        font: normal normal 800 20px/0 Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #101639;
+        text-transform: uppercase;
+    }
+
+    .contactNum {
+        margin-top: 20px;
+        font: normal normal 300 16px/38px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #101639;
+    }
+
+    .contactEmail {
+        font: normal normal normal 14px/28px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #101639B3;
+    }
+
+    .contactPlace {
+        margin-top: 10px;
+        font: normal normal 300 16px/48px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #101639;
+        text-transform: uppercase;
+    }
+
+    .contactPlaceInfo {
+        font: normal normal normal 14px/20px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #101639B3;
+        width: 200px;
+    }
+    .contactUsQuestion{
+        width: 240px;
+        text-align: center;
+        font: normal normal 800 28px/34px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF;
+    }
+    .contactUsHelp{
+        margin-top: 20px;
+        width: 240px;
+        text-align: center;
+        font: normal normal normal 18px/26px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF;
+    }
+    .contactUsBtn{
+        width: 200px;
+        height: 50px;
+    }
 }

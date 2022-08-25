@@ -1,3 +1,66 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../../public/fonts/OpenSans-Bold.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-BoldItalic";
+    src: url("../../public/fonts/OpenSans-BoldItalic.ttf") ;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: url("../../public/fonts/OpenSans-ExtraBold.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-ExtraBoldItalic";
+    src: url("../../public/fonts/OpenSans-ExtraBoldItalic.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../../public/fonts/OpenSans-Italic.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../../public/fonts/OpenSans-Light.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-LightItalic";
+    src: url("../../public/fonts/OpenSans-LightItalic.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-Medium";
+    src: url("../../public/fonts/OpenSans-Medium.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-MediumItalic";
+    src: url("../../public/fonts/OpenSans-MediumItalic.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../../public/fonts/OpenSans-Regular.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("../../public/fonts/OpenSans-SemiBold.ttf") ;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-SemiBoldItalic";
+    src: url("../../public/fonts/OpenSans-SemiBoldItalic.ttf") ;
+    font-display: swap;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -32,11 +95,11 @@ body {
 .swiper {
     margin-left: unset;
     margin-right: unset;
-    padding: 30px 10px 110px!important;
+    padding: 30px 10px 110px !important;
     display: flex !important;
-    justify-content: center!important;
-    align-items: center!important;
-    flex-direction: column!important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
 }
 
 .swiper-slide {
@@ -45,14 +108,15 @@ body {
 }
 
 .dragInCarousel {
-    width: 1296px!important;
-    height: 0!important;
+    width: 1296px !important;
+    height: 0 !important;
     border: 2px solid #FFFFFF1A;
-    margin: 0 auto!important;
+    margin: 0 auto !important;
 
 }
+
 .swiper-scrollbar {
-    left: unset!important;
+    left: unset !important;
 }
 
 .swiper-scrollbar-drag {
@@ -61,14 +125,118 @@ body {
     background: #5C5469 !important;
     position: relative !important;
     top: -3px !important;
-    left: -3px!important;
+    left: -3px !important;
     cursor: pointer;
 }
 
 footer {
     background: #FFFFFF;
     text-align: center;
-    font: normal normal normal 20px/32px Open Sans;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 32px;
+    font-family: OpenSans, sans-serif;
     letter-spacing: 0;
     color: #101639B3;
+}
+
+.swiper-pagination{
+    display: none;
+}
+
+.slick-dots{
+    z-index: 100;
+    margin: 0 auto;
+    bottom: -50px;
+    left: 0;
+}
+.slick-dots > li{
+    width: 12px!important;
+    height: 12px!important;
+    border-radius: 50%;
+    background: #101639;
+    opacity: 0.2;
+}
+.slick-dots > li:hover{
+    opacity: 0.5;
+}
+.slick-dots > .slick-active{
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .swiper {
+        padding: 30px 10px 60px !important;
+    }
+    .media-br-none-1280{
+        display: none;
+    }
+
+    .dragInCarousel {
+        width: 947px !important;
+    }
+    .swiper-scrollbar-drag {
+        width: 79px !important;
+        top: -4px !important;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .media-br-none-1280{
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .dragInCarousel {
+        width: 695px !important;
+    }
+    .swiper-slide {
+        height: 215px !important;
+    }
+}
+@media screen and (max-width: 770px) {
+    .media-br-none{
+        display: none;
+    }
+    .dragInCarousel {
+        width: 495px !important;
+    }
+    .swiper-scrollbar-drag {
+        width: 58px !important;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .dragInCarousel {
+        display: none;
+    }
+    .swiper{
+        padding: 30px 10px 0 !important;
+    }
+    .swiper-scrollbar {
+        display: none;
+    }
+    .swiper-pagination{
+        display: block;
+    }
+    .swiper-pagination > .swiper-pagination-bullet{
+        width: 12px!important;
+        height: 12px!important;
+        background: #FFFFFF!important;
+        opacity: 0.2!important;
+    }
+    .swiper-pagination > .swiper-pagination-bullet-active{
+        width: 12px!important;
+        height: 12px!important;
+        background: #FFFFFF!important;
+        opacity: 0.5!important;
+    }
+    .footer-content {
+        width: 210px;
+        text-align: center;
+        font: normal normal normal 16px/24px Open Sans,sans-serif;
+        letter-spacing: 0;
+        color: #101639B3;
+        margin: 0 auto;
+    }
 }

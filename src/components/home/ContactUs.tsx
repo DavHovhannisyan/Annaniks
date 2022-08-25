@@ -10,20 +10,20 @@ const ContactUs: FC = () => {
 
     return (
         <Box className={Home.contactUsBlock}>
-            <Grid container>
-                <Grid item xs={12}>
+            <Grid container >
+                <Grid item container justifyContent={"center"} xs={12}>
                     <h2 data-aos="fade-up"
                         data-aos-duration="3000" className={Home.contactUsQuestion}>
                         {t("common:question")}
                     </h2>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid container justifyContent={"center"} item xs={12}>
                     <p data-aos="fade-up"
                        data-aos-duration="3000" className={Home.contactUsHelp}>
                         {t("common:help")}
                     </p>
                 </Grid>
-                <Grid item xs={12} display={"flex"} justifyContent={"center"}>
+                <Grid item container xs={12} display={"flex"} justifyContent={"center"}>
                     <Link href={'./'}>
                         <a data-aos="fade-up"
                            data-aos-duration="3000" className={Home.contactUsBtn}>

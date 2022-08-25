@@ -1,9 +1,8 @@
 import {FC} from "react";
 import {useTranslation} from "next-i18next";
-import {Box, Grid} from "@mui/material";
-import Home from "../../styles/Home.module.css";
+import {Box} from "@mui/material";
 import OurTeamCarousel from "./ourTeam/OurTeamCarousel";
-
+import Home from "../../styles/Home.module.css";
 
 
 const MeetOurTeam: FC = () => {

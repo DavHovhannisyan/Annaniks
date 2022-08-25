@@ -1,6 +1,6 @@
 import {FC} from "react";
 import {useTranslation} from "next-i18next";
-import {Box, Grid} from "@mui/material";
+import {Box, Grid, useMediaQuery} from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 import fb from "../../../public/images/social/facebook.svg";
@@ -12,6 +12,7 @@ import Home from "../../styles/Home.module.css";
 
 const Contact: FC = () => {
     const {t} = useTranslation('common');
+    const matches425 = useMediaQuery('(max-width:430px)', {noSsr: true});
 
     return (
         <Box className={Home.contactBlock}>
@@ -57,7 +58,7 @@ const Contact: FC = () => {
 
                     </Box>
                 </Grid>
-                <Grid display={"flex"} flexDirection={"column"} alignItems={"center"} item xl={6} lg={6} md={6} sm={6}  xs={12}>
+                <Grid marginTop={matches425?"30px":""} display={"flex"} flexDirection={"column"} alignItems={"center"} item xl={6} lg={6} md={6} sm={6}  xs={12}>
                     <h2 data-aos="fade-up"
                         data-aos-duration="3000" className={Home.contactTitle}>
                         {t("common:comeMeetUs")}
