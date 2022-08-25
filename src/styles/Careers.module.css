@@ -1,0 +1,505 @@
+.careers_top_container {
+    height: 800px;
+    background-image: url(../../public/images/carrers/43929a7.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 1110px;
+}
+
+.careers_main_contain {
+    padding: 0 110px;
+}
+
+.careers_bold_text {
+    font-family: OpenSans-Bold, sans-serif;
+    letter-spacing: 0;
+    color: #fff;
+    font-size: 60px;
+    line-height: 58px;
+    margin-bottom: 5px;
+}
+
+.careers_small_text {
+    text-align: left;
+    font-family: OpenSans-Regular, sans-serif;
+    letter-spacing: 0;
+    color: hsla(0, 2.8%, 42%, .6);
+    font-size: 30px;
+    line-height: 34px;
+    margin-top: 5px;
+}
+
+.join_button {
+    margin-top: 40px !important;
+    text-align: left;
+}
+
+.join_button a {
+    color: #101639;
+    text-decoration: none;
+    padding: 20px 70px;
+    border-radius: 30px !important;
+    font-family: OpenSans-Bold, sans-serif;
+    background-color: #98fc03 !important;
+    height: 60px !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+
+.content_main_center_block {
+    padding: 0 110px;
+}
+
+.our_values_subtitle {
+    text-align: center;
+    font-family: OpenSans-Regular, sans-serif;
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.our_value_cart {
+    margin: 15px auto;
+    width: 48%;
+    min-height: 190px;
+    background: #0b1131 0 0 no-repeat padding-box;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+}
+
+.our_value_cart_item {
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_value_cart_image {
+    min-width: 110px;
+    min-height: 110px;
+    background: #242946 0 0 no-repeat padding-box;
+}
+
+.our_value_cart_info_block {
+    padding: 0 30px;
+}
+
+.our_value_cart_info_block_title {
+    text-align: left;
+    font-family: OpenSans-SemiBold, sans-serif;
+    letter-spacing: 0;
+    color: #fff;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 5px;
+}
+
+.our_value_cart_info_block_subTitle {
+    text-align: left;
+    font-family: OpenSans-SemiBold, sans-serif;
+    letter-spacing: 0;
+    color: hsla(0, 0%, 100%, .4);
+    font-size: 20px;
+}
+
+.life_annaniks_cart_block {
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.life_annaniks_cart_container {
+    display: flex;
+    width: calc(100% / 4 - 10px);
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.life_annaniks_cart_container:nth-child(2n + 1) {
+    flex-direction: column-reverse;
+}
+
+.life_annaniks_cart_small_block, .life_annaniks_cart_medium_block, .life_annaniks_cart_larg_block {
+    width: 100%;
+    background: #0b1131 0 0 no-repeat padding-box;
+    margin: 15px 0;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+}
+
+.life_annaniks_cart_small_block {
+    height: 200px;
+}
+
+.life_annaniks_cart_medium_block {
+    height: 250px;
+
+}
+
+.life_annaniks_cart_larg_block {
+    height: 350px;
+
+}
+
+.position_cart_container {
+    padding-bottom: 150px;
+    flex-wrap: wrap !important;
+    display: flex !important;
+}
+
+.position_cart {
+    cursor: pointer;
+    width: 46%;
+    background: #0b1131 0 0 no-repeat padding-box;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    margin: 0 auto 30px;
+}
+
+.position_cart_item {
+    padding: 40px 30px;
+}
+
+.position_cart_top_title {
+    background-color: rgb(89, 146, 231);
+    font-family: OpenSans-Bold, sans-serif;
+    border-radius: 6px;
+    display: table;
+    margin-bottom: 30px;
+}
+
+.position_cart_top_title div {
+    color: rgb(94, 255, 238);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 9px 15px;
+    font-weight: 700;
+}
+
+.load_more_container {
+    display: none;
+    margin-bottom: 100px;
+}
+
+.load_more_button {
+    color: #101639;
+    font-family: OpenSans-Regular, sans-serif;
+    letter-spacing: 0;
+    border: none;
+    background: 0 0;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 30px;
+    border-radius: 30px !important;
+    background-color: #98fc03 !important;
+    width: 240px !important;
+    height: 60px !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+
+.send_container {
+    padding-bottom: 100px;
+}
+
+
+@media only screen and (max-width: 1366px) {
+    .careers_top_container {
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: 1061px;
+    }
+
+    .careers_main_contain {
+        padding: 0 65px;
+    }
+
+    .careers_bold_text {
+        font-size: 50px;
+    }
+
+    .careers_small_text {
+        font-size: 26px;
+    }
+
+    .content_main_center_block {
+        padding: 0 65px;
+    }
+
+    .our_values_subtitle {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .our_value_cart_info_block {
+        padding: 0 40px 0 30px;
+    }
+
+    .our_value_cart_info_block_title {
+        font-size: 22px;
+    }
+
+    .our_value_cart_info_block_subTitle {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .position_cart_top_title {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .careers_top_container {
+        height: 630px;
+        background-image: url(../../public/images/carrers/6c8c16f.png);
+    }
+
+    .careers_main_contain {
+        padding: 0 62px;
+    }
+
+    .careers_bold_text {
+        font-size: 40px;
+    }
+
+    .careers_small_text {
+        font-size: 24px;
+    }
+
+    .content_main_center_block {
+        padding: 0 62px;
+    }
+
+    .our_values_subtitle {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+
+    .padding_bottom {
+        padding-bottom: 100px
+    }
+
+    .our_value_cart_info_block {
+        padding: 0 0 0 15px;
+    }
+
+    .our_value_cart_info_block_title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .our_value_cart_info_block_subTitle {
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .our_value_cart {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .careers_top_container {
+        height: 740px;
+    }
+
+    .careers_main_contain {
+        padding: 0 24px;
+    }
+
+    .our_values_subtitle {
+        padding-bottom: 50px;
+        line-height: 32px;
+    }
+
+    .position_cart_container {
+        padding-bottom: 0;
+    }
+
+    .position_cart {
+        width: 100%;
+    }
+    .load_more_container{
+        display: block;
+    }
+    .life_annaniks_cart_small_block {
+        height: 180px;
+    }
+
+    .life_annaniks_cart_medium_block {
+        height: 220px;
+
+    }
+
+    .life_annaniks_cart_larg_block {
+        height: 320px;
+
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .careers_top_container {
+        background-image: url(../../public/images/carrers/43929a7.png);
+        background-position: 100% 100%;
+    }
+    .content_main_center_block {
+        padding: 0 25px;
+    }
+    .careers_bold_text {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .careers_small_text {
+        font-size: 19px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+
+    .our_values_subtitle {
+        font-size: 19px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .join_button{
+        text-align: center;
+    }
+
+    .join_button a {
+        padding: 15px 40px;
+    }
+
+    .our_value_cart_info_block {
+        padding: 0
+    }
+
+    .our_value_cart_info_block_title {
+        margin-top: 23px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .our_value_cart_info_block_subTitle {
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .life_annaniks_cart_block {
+        padding-bottom: 100px;
+        flex-wrap: wrap;
+    }
+
+    .life_annaniks_cart_container {
+        display: flex;
+        width: calc(100% / 2 - 10px);
+        margin-right: 10px;
+    }
+
+    .our_value_cart_item {
+        margin: 0 0 50px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our_value_cart {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .load_more_button {
+        margin: 0 auto 0;
+        width: 200px !important;
+        height: 50px !important;
+        font-size: 20px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 374px) {
+    .careers_top_container {
+        background-image: url(../../public/images/carrers/496c96c.png);
+        background-size: 310px;
+        height: 530px;
+    }
+
+    .content_main_center_block {
+        padding: 0 20px;
+    }
+    .careers_bold_text {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .careers_small_text {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+
+    .our_values_subtitle {
+        font-size: 18px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .join_button{
+        text-align: center;
+    }
+
+    .join_button a {
+        padding: 10px 35px;
+    }
+
+    .our_value_cart_info_block {
+        padding: 0
+    }
+
+    .our_value_cart_info_block_title {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .our_value_cart_info_block_subTitle {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .life_annaniks_cart_block {
+        padding-bottom: 100px;
+        flex-wrap: wrap;
+
+    }
+
+    .life_annaniks_cart_container {
+        display: flex;
+        width: calc(100% / 2 - 10px);
+        margin-right: 10px;
+    }
+
+    .our_value_cart_item {
+        margin: 0 0 50px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our_value_cart {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .load_more_button {
+        margin: 0 auto 0;
+        width: 200px !important;
+        height: 50px !important;
+        font-size: 20px !important;
+    }
+
+}
