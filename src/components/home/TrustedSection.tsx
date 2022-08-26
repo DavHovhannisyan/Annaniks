@@ -9,6 +9,7 @@ import Home from "../../styles/Home.module.css";
 const TrustedSection: FC = () => {
     const {t} = useTranslation('common');
     const matches768 = useMediaQuery('(max-width:770px)', {noSsr: true});
+    const matchesMobile = useMediaQuery('(max-width:700px)', {noSsr: true});
     const matches425 = useMediaQuery('(max-width:430px)', {noSsr: true});
 
     return (
@@ -31,7 +32,8 @@ const TrustedSection: FC = () => {
                                     </Grid>
                                     <Grid data-aos="fade-up"
                                           data-aos-duration="2000" item display={"flex"}
-                                          flexDirection={matches768 ? "column" : "unset"} lg={12} md={12} sm={4}
+                                          flexDirection={matches768 ? "column" : "unset"} lg={12} md={12}
+                                          sm={matchesMobile ? 6 : 4}
                                           alignItems={matches768 ? "center" : "flex-start"}>
                                         <Image src={img} width={matches425 ? "32" : "36px"}
                                                height={matches425 ? "32" : "36px"}/>
@@ -44,10 +46,10 @@ const TrustedSection: FC = () => {
                                     <Grid data-aos="fade-up"
                                           data-aos-duration="2500" item
                                           display={"flex"}
-                                          lg={12} md={12} sm={4}
+                                          lg={12} md={12} sm={matchesMobile ? 6 : 4}
                                           flexDirection={matches768 ? "column" : "unset"}
                                           alignItems={matches768 ? "center" : "flex-start"}>
-                                         <Image src={img} width={matches425 ? "32" : "36px"}
+                                        <Image src={img} width={matches425 ? "32" : "36px"}
                                                height={matches425 ? "32" : "36px"}/>
                                         <p className={Home.trustedList}>
                                             {
@@ -59,9 +61,9 @@ const TrustedSection: FC = () => {
                                           data-aos-duration="2500" item
                                           display={"flex"}
                                           flexDirection={matches768 ? "column" : "unset"}
-                                          lg={12} md={12} sm={4}
+                                          lg={12} md={12} sm={matchesMobile ? 6 : 4}
                                           alignItems={matches768 ? "center" : "flex-start"}>
-                                         <Image src={img} width={matches425 ? "32" : "36px"}
+                                        <Image src={img} width={matches425 ? "32" : "36px"}
                                                height={matches425 ? "32" : "36px"}/>
                                         <p className={Home.trustedList}>
                                             {
@@ -70,11 +72,11 @@ const TrustedSection: FC = () => {
                                         </p>
                                     </Grid>
                                     <Grid data-aos="fade-up"
-                                          data-aos-duration="2000" item lg={12} md={12} sm={4}
+                                          data-aos-duration="2000" item lg={12} md={12} sm={matchesMobile ? 6 : 4}
                                           display={"flex"}
                                           flexDirection={matches768 ? "column" : "unset"}
                                           alignItems={matches768 ? "center" : "flex-start"}>
-                                         <Image src={img} width={matches425 ? "32" : "36px"}
+                                        <Image src={img} width={matches425 ? "32" : "36px"}
                                                height={matches425 ? "32" : "36px"}/>
                                         <p className={Home.trustedList}>
                                             {
@@ -83,11 +85,11 @@ const TrustedSection: FC = () => {
                                         </p>
                                     </Grid>
                                     <Grid data-aos="fade-up"
-                                          data-aos-duration="2000" item lg={12} md={12} sm={4}
+                                          data-aos-duration="2000" item lg={12} md={12} sm={matchesMobile ? 6 : 4}
                                           display={"flex"}
                                           alignItems={matches768 ? "center" : "flex-start"}
                                           flexDirection={matches768 ? "column" : "unset"}>
-                                         <Image src={img} width={matches425 ? "32" : "36px"}
+                                        <Image src={img} width={matches425 ? "32" : "36px"}
                                                height={matches425 ? "32" : "36px"}/>
                                         <p className={Home.trustedList}>
                                             {

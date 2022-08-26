@@ -9,7 +9,6 @@ interface ICarouselItem {
 }
 
 const CarouselItem: FC<ICarouselItem> = (props) => {
-
     const matches425 = useMediaQuery('(max-width:430px)', {noSsr: true});
 
     return (

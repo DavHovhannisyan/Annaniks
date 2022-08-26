@@ -1,12 +1,10 @@
 import {FC} from "react";
 import {useTranslation} from "next-i18next";
 import Link from "next/link";
-import Image from "next/image";
 import parse from 'html-react-parser';
-import {Box, Grid} from "@mui/material";
-import Home from "../../styles/Home.module.css";
-import CarouselItem from "./ourProject/CarouselItem";
+import {Box} from "@mui/material";
 import OurProjectCarousel from "./ourProject/OurProjectCarousel";
+import Home from "../../styles/Home.module.css";
 
 
 const OurProject: FC = () => {

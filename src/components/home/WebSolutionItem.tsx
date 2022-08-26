@@ -1,5 +1,4 @@
 import {FC} from "react";
-import {useTranslation} from "next-i18next";
 import Image from "next/image";
 import {Box, Grid, useMediaQuery} from "@mui/material";
 import Home from "../../styles/Home.module.css";
@@ -12,10 +11,10 @@ interface IWebSolutionItem {
 
 
 const WebSolutionItem: FC<IWebSolutionItem> = (props) => {
-    const {t} = useTranslation('common');
     const matches = useMediaQuery('(max-width:1400px)', {noSsr: true});
     const matches1024 = useMediaQuery('(max-width:1100px)', {noSsr: true});
     const matchesMobile = useMediaQuery('(max-width:700px)', {noSsr: true});
+
     return (
         <Box className={Home.webSolutionItem}>
             <Grid container >

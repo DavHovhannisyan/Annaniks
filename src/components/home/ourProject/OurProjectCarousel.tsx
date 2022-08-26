@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import {ourProjectSliderData} from "../../../constants/home/constants";
 import CarouselItem from "./CarouselItem";
 import Image from "next/image";
-import {Box, Grid, Container} from "@mui/material";
+import {Box} from "@mui/material";
 import nextIcon from "../../../../public/images/carousel/Group69184.svg"
 import prevIcon from "../../../../public/images/carousel/Group69185.svg"
 import "slick-carousel/slick/slick.css";

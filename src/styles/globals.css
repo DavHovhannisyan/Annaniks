@@ -205,6 +205,14 @@ footer {
         width: 58px !important;
     }
 }
+@media screen and (max-width: 700px) {
+    .dragInCarousel {
+        width: 450px !important;
+    }
+    .swiper-scrollbar-drag {
+        width: 58px !important;
+    }
+}
 
 @media screen and (max-width: 430px) {
     .dragInCarousel {

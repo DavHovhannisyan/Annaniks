@@ -9,6 +9,9 @@
 .menuBlock {
     display: flex;
 }
+.mobileMenuBlock{
+    display: none;
+}
 
 .banner {
     padding-top: 28px;
@@ -1335,15 +1338,41 @@
 }
 
 @media screen and (max-width: 700px) {
-    .header {
-        width: 100%;
-        position: fixed;
-        background: transparent;
-        z-index: 9999;
+    .mobileMenuBlock{
+        display: block !important;
     }
 
-    .headerBg {
-        background: rgb(22, 10, 40) !important;
+    .menuItem {
+        font: normal normal bold 18px/22px Open Sans, sans-serif;
+        letter-spacing: 0;
+        cursor: pointer;
+        color: #101639;
+        margin-bottom: 25px;
+        margin-left: 40px;
+    }
+
+    .menuItem:hover {
+        font: normal normal bold 18px/22px Open Sans, sans-serif;
+        letter-spacing: 0;
+        color: #10163999;
+    }
+
+    .header {
+        padding: 20px 24px 20px 30px;
+    }
+
+    .headingTitle {
+        max-width: 80%;
+    }
+
+
+    .headingSubTitle {
+        max-width: 80%;
+    }
+
+    .banner {
+        background-position: 154% -106px, -152px 66%;
+        background-size: 472px 359px;
     }
 
     .imgItem1 {
@@ -1357,6 +1386,193 @@
     .imgItem3 {
         display: none;
     }
+
+    .trusted {
+        height: 389px;
+    }
+
+    .trustedTopBg {
+        top: -499px;
+    }
+
+    .trustedContent {
+        top: -500px;
+    }
+
+    .trustedBlock {
+        position: relative;
+        top: 10px;
+    }
+
+    .trustedBg {
+        background-image: none;
+        height: 555px;
+    }
+
+    .trustedContentBlock {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+
+    .trustedTitle {
+        margin-bottom: 30px;
+    }
+
+    .trustedList {
+        margin-top: 10px;
+        width: 224px;
+        text-align: center;
+        font: normal normal 600 14px/22px Open Sans, sans-serif;
+    }
+
+    .tows {
+        padding: 0 24px;
+    }
+
+    .towsContent {
+        background-position: -39px 30px;
+        background-size: 217px 86px;
+    }
+
+    .towsTitle {
+        margin-top: 115px;
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .webSolutionItem {
+        width: 298px;
+        height: 408px;
+        padding: 20px;
+    }
+
+    .webSolutionItemTitle {
+        font: normal normal 600 20px/36px Open Sans, sans-serif;
+    }
+
+    .webSolutionItemDesc {
+        font: normal normal normal 16px/20px Open Sans, sans-serif;
+        width: 277px;
+        padding-bottom: 10px;
+    }
+
+    .ourProjectBlock {
+        padding: 0;
+    }
+
+    .carouselItem {
+        width: 260px;
+    }
+
+    .ourTeamCarouselItemTitle {
+        font-size: 16px;
+    }
+
+    .ourTeamCarouselItemInfo,
+    .ourTeamCarouselItemDesc {
+        font-size: 14px;
+    }
+
+
+    .carouselItemImage:before {
+        background-size: 303px 111px;
+        left: -22px;
+    }
+
+    .carouselItemImage {
+        height: 150px;
+    }
+
+
+    .bg {
+        background-size: 768px 506px;
+    }
+
+    .bgRevers {
+        height: 162px;
+        bottom: -135px;
+        background-size: cover;
+    }
+
+    .imgMatrix {
+        display: none;
+    }
+
+    .ourProjectTitle {
+        width: 90%;
+    }
+
+    .ourProjectDesc {
+        width: 90%;
+    }
+
+    .ourProjectCarousel {
+        max-width: 610px;
+    }
+
+    .ourTeamTitle > h2 {
+        font: normal normal 800 40px/48px Open Sans, sans-serif;
+    }
+
+    .ourTeamBlock {
+        margin-top: 0;
+        padding: 0 0 76px;
+        position: relative;
+        top: -80px;
+    }
+
+    .ourTeamDesc > p {
+        margin-top: 20px;
+        font: normal normal normal 24px/32px Open Sans, sans-serif;
+    }
+
+    .swiperSlideItem {
+        max-width: 260px;
+        height: 263px !important;
+    }
+
+    .swiperSlideItem:hover {
+        transform: scale(1.03) !important;
+        filter: none;
+        box-shadow: inset 0 -100px 40px 0 rgba(0, 0, 0, 0.65);
+    }
+
+    .contactTitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .contactNum {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .contactEmail {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contactPlace {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .contactPlaceInfo {
+        font-size: 14px;
+        line-height: 20px;
+        width: 200px;
+    }
+
+    .header {
+        width: 100%;
+        position: fixed;
+        background: transparent;
+        z-index: 9999;
+    }
+
+    .headerBg {
+        background: rgb(22, 10, 40) !important;
+    }
+
 
     .burgerBtn {
         display: flex;
@@ -1399,19 +1615,19 @@
         width: 110%;
         height: 100%;
         background-color: white;
-        transform: translateX(-105%);
+        transform: translateX(-109%);
         position: fixed;
-        margin-top: 78px;
+        margin-top: 68px;
         padding: 20px;
         top: 0;
         transition: all ease 0.7s;
         background-repeat: no-repeat;
-        background-position: 0 100%, 90% 80%;
+        background-position: 85% 88%, 93% 71%;
         background-image: url("../../public/images/banner/mobile.svg");
     }
 
     .transition {
-        transform: translateX(-5%) !important;
+        transform: translateX(-9%) !important;
     }
 
     .mobileMenuItem {
@@ -1555,6 +1771,7 @@
         letter-spacing: 0;
         color: #FFFFFF66;
         padding-bottom: 10px;
+        margin: 0 auto;
     }
 
     .ourProjectBlock {
@@ -1730,4 +1947,86 @@
         width: 200px;
         height: 50px;
     }
+}
+@media screen and (max-width: 380px) {
+    .bg {
+        background-size: 375px 400px;
+    }
+}
+@media screen and (max-width: 320px) {
+
+
+    .headingSubTitle {
+        width: 280px;
+        font: normal normal normal 18px/26px Open Sans, sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF99;
+    }
+
+    .mobileMenuBlock {
+        width: 110%;
+        transform: translateX(-106%);
+        margin-top: 74px;
+        background-position: 80% 50%, 0 100%;
+    }
+
+    .transition {
+        transform: translateX(-6%) !important;
+    }
+
+    .banner {
+        background-size: 180px 453px;
+    }
+
+
+    .webSolutionItem {
+        background: transparent;
+        text-align: center;
+        width: 280px;
+        height: 408px;
+        padding: 0;
+    }
+
+    .webSolutionItemDesc {
+        width: 280px;
+    }
+
+
+    .carouselItem {
+        width: 240px;
+    }
+
+
+    .carouselItemImage:before {
+        background-size: 280px 117px;
+        left: -20px;
+    }
+
+
+    .bg {
+        background-size: 320px 400px;
+    }
+
+
+    .ourProjectDesc {
+        width: 280px;
+        text-align: center;
+        letter-spacing: 0;
+        color: #101639;
+        font: normal normal normal 18px/26px Open Sans, sans-serif;
+    }
+
+    .ourProjectCarousel {
+        max-width: 314px;
+    }
+    .swiperSlideItem {
+        width: 132px;
+    }
+
+    .swiperSlideItem:hover {
+        transform: scale(1.03) !important;
+        filter: none;
+        box-shadow: inset 0 -100px 40px 0 rgba(0, 0, 0, 0.65);
+    }
+
 }

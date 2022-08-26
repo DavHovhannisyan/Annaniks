@@ -1,6 +1,6 @@
 import {FC} from "react";
 import {Swiper, SwiperSlide} from 'swiper/react';
-import {Box, Grid, Container, useMediaQuery} from "@mui/material";
+import {Box, Container, useMediaQuery} from "@mui/material";
 import SwiperCore,{A11y, Navigation, Pagination, Scrollbar} from "swiper";
 import CarouselItem from "./CarouselItem";
 import 'swiper/css';
@@ -14,12 +14,14 @@ const OurTeamCarousel: FC = () => {
     const matches = useMediaQuery('(max-width:1400px)', {noSsr: true});
     const matches1024 = useMediaQuery('(max-width:1100px)', {noSsr: true});
     const matches768 = useMediaQuery('(max-width:770px)', {noSsr: true});
+    const matchesMobile = useMediaQuery('(max-width:700px)', {noSsr: true});
     const matches425 = useMediaQuery('(max-width:430px)', {noSsr: true});
+    const matches320 = useMediaQuery('(max-width:330px)', {noSsr: true});
 
     return (
         <Box className={Home.ourTeamCarousel}>
             <Container sx={{
-                maxWidth: matches425 ? "370px!important" : matches768 ? "700px!important" : matches1024 ? "980px!important" : matches ? "1220px!important" : "1700px!important",
+                maxWidth: matches320 ? "318px!important" :matches425 ? "370px!important" : matchesMobile ? "580px!important" :matches768 ? "700px!important" : matches1024 ? "980px!important" : matches ? "1220px!important" : "1700px!important",
             }}>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}

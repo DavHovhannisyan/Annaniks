@@ -1,4 +1,4 @@
-import {FC, MouseEventHandler, useEffect, useState} from "react";
+import {FC, useEffect, useState} from "react";
 import {useRouter} from "next/router";
 import {useTranslation} from 'next-i18next';
 import Image from "next/image";
@@ -8,14 +8,14 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import flagUK from "../../public/images/flags/united-kingdom.svg";
 import flagRUS from "../../public/images/flags/russia.svg";
 import Home from "../styles/Home.module.css";
-import {show} from "dom7";
+
 
 const Header: FC = () => {
+    const router = useRouter();
     const [arrowActive, setArrowActive] = useState<boolean>(true);
     const [showBurger, setShowBurger] = useState<boolean>(false);
     const [headerBg, setHeaderBg] = useState<boolean>(false);
-    const router = useRouter();
-    const [image, setImage] = useState<string>(router.locale === "en-UK" ? flagUK : flagRUS);
+    const [image, setImage] = useState<string>(router.locale === "en" ? flagUK : flagRUS);
     const {t} = useTranslation('common');
     const matchesMobile = useMediaQuery('(max-width:700px)', {noSsr: true});
 
@@ -90,7 +90,7 @@ const Header: FC = () => {
                                             <Link href={
                                                 router.pathname
                                             }
-                                                  locale="en-UK">
+                                                  locale="en">
                                                 <a>
                                                     <div onClick={(): void => {
                                                         setImage(flagUK)
@@ -105,7 +105,7 @@ const Header: FC = () => {
                                                 </a></Link>
                                             <Link href={
                                                 router.pathname
-                                            } locale={"ru-RU"}>
+                                            } locale={"ru"}>
                                                 <a>
                                                     <div onClick={(): void => {
                                                         setImage(flagRUS)
@@ -132,23 +132,22 @@ const Header: FC = () => {
                         </Box>)}
                 </Grid>
             </Grid>
-            {matchesMobile && (
-                <Box className={showBurger ? `${Home.transition} ${Home.mobileMenuBlock}` : Home.mobileMenuBlock}>
-                    <Box className={Home.mobileMenuItem}>
-                        <Link href={"/ourprojects"}>
-                            <a className={Home.menuItem}>
-                                {t('common:OurProjects:title')}
-                            </a>
-                        </Link>
-                    </Box>
-                    <Box className={Home.mobileMenuItem}>
-                        <Link href={"/careers"}>
-                            <a className={Home.menuItem}>
-                                {t('common:careers')}
-                            </a>
-                        </Link>
-                    </Box>
-                </Box>)}
+            <Box className={showBurger ? `${Home.transition} ${Home.mobileMenuBlock}` : Home.mobileMenuBlock}>
+                <Box className={Home.mobileMenuItem}>
+                    <Link href={"/ourprojects"}>
+                        <a className={Home.menuItem}>
+                            {t('common:OurProjects:title')}
+                        </a>
+                    </Link>
+                </Box>
+                <Box className={Home.mobileMenuItem}>
+                    <Link href={"/careers"}>
+                        <a className={Home.menuItem}>
+                            {t('common:careers')}
+                        </a>
+                    </Link>
+                </Box>
+            </Box>
         </header>
     )
 }
