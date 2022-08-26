@@ -295,15 +295,17 @@
 }
 
 .card_info_title {
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_info_item h3{
     text-align: left;
     letter-spacing: 0;
     color: #101639;
     font-family: OpenSans-Bold, sans-serif;
     font-size: 15px;
-    margin-bottom: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .close_button {
@@ -376,6 +378,13 @@
     line-height: 24px;
     text-shadow: none;
     background-color: #fff;
+}
+
+@media only screen and (min-width: 1650px){
+    .carousel_item_heading {
+        height: 2vw;
+    }
+
 }
 
 @media only screen and (min-width: 1366px) {
