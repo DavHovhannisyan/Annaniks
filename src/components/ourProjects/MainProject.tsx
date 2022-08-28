@@ -1,4 +1,4 @@
-import React, {FC, useCallback, useState} from 'react';
+import React, {FC, useCallback, useEffect, useState} from 'react';
 import TopBar from "./MainContent/TopBar";
 import ProjectsSection from "./MainContent/ProjectsSection";
 import styles from '../../styles/OurProjects.module.css'
@@ -28,10 +28,17 @@ interface IProps {
 
 const MainProject: FC<IProps> = ({locale, data, results}) => {
     const {t} = useTranslation('common');
-    const [showButton, setShowButton] = useState(true)
+    const [showButton, setShowButton] = useState<boolean>(true)
     const [mainData, setMainData] = useState([...results])
-    const [inputText, SetInputText] = useState('')
-    const [portfolioType, SetPortfolioType] = useState<undefined | number>(3)
+    const [inputText, SetInputText] = useState<string>('')
+    const [portfolioType, SetPortfolioType] = useState<undefined | number | string>(3)
+
+    useEffect(() => {
+        if (window) {
+            localStorage.setItem('portfolioType', '3')
+
+        }
+    }, [])
 
     const setResultsPortfolioOffset = useCallback(async () => {
         const {data} = await getPortfolioData(4, 4, portfolioType, '', locale)
@@ -42,7 +49,6 @@ const MainProject: FC<IProps> = ({locale, data, results}) => {
     const setResultsSearch = useCallback(async (search: string) => {
         const {data} = await getPortfolioData(4, 0, portfolioType, search, locale)
         setMainData([...data.results])
-        SetPortfolioType(portfolioType)
     }, [mainData])
 
     const setResultsPortfolioType = useCallback(async (param: number) => {
@@ -51,6 +57,9 @@ const MainProject: FC<IProps> = ({locale, data, results}) => {
             setMainData([...data.results])
         }
         SetPortfolioType(param)
+        localStorage.setItem('portfolioType', param.toString())
+        const xxx = localStorage.getItem('portfolioType')
+        console.log(xxx)
         setShowButton(true)
     }, [mainData])
 

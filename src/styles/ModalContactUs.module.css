@@ -1,0 +1,234 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background: #101639CC 0 0 no-repeat padding-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+
+.modal__content {
+  transition: 0.5s all;
+}
+
+.contact_us_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 960px;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 5px 20px #00000033;
+  border-radius: 15px;
+  z-index: 9999999999999;
+  transition: all .5s;
+  opacity: 1;
+}
+
+.contact_us_modal_block {
+  padding: 40px 60px;
+  position: relative;
+  overflow: auto;
+
+}
+
+.contact_us_modal_title {
+  text-align: center;
+  font: normal normal 800 36px/48px;
+  font-family: OpenSans-SemiBold, sans-serif;
+  letter-spacing: 0;
+  color: #101639;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.contact_us_modal_form {
+
+}
+
+.modal_flex_content {
+  display: flex;
+}
+
+.modal_row_content {
+  width: 50%;
+  margin-right: 36px;
+  vertical-align: baseline;
+}
+
+.modal_row_content:last-child {
+  margin-right: 0;
+}
+
+.modal_input_block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.contact_us_modal_form_input {
+  height: 36px;
+  background: rgba(16, 22, 57, .01961) 0 0 no-repeat padding-box;
+  border: 1px solid rgba(0, 0, 0, .05098);
+  border-radius: 18px;
+  padding: 8.5px 15px;
+  font-family: OpenSans-Regular, sans-serif;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  position: relative;
+  letter-spacing: .01rem;
+  margin-left: 0;
+  line-height: 25px;
+}
+
+.modal_input_block .contact_us_modal_form_input_phone {
+  height: 36px;
+  background: rgba(16, 22, 57, .01961) 0 0 no-repeat padding-box;
+  border: 1px solid rgba(0, 0, 0, .05098);
+  border-radius: 18px;
+  padding: 8.5px 48px;
+  font-family: OpenSans-Regular, sans-serif;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  position: relative;
+  letter-spacing: .01rem;
+  margin-left: 0;
+  line-height: 25px;
+}
+
+.modal_input_block .dropdownClass {
+  position: absolute;
+  top: 0;
+  border-radius: 16px 0 0 16px;
+}
+
+.contact_us_modal_form {
+
+}
+
+.contact_us_modal_form_label h4 {
+  margin-bottom: 8px;
+  text-align: left;
+  font-family: OpenSans-SemiBold, sans-serif;
+  letter-spacing: .12px;
+  color: #101639;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.modal_textarea_block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.contact_us_modal_form_input {
+  width: 100%;
+  height: 100%;
+  background: #10163905 0 0 no-repeat padding-box;
+  border: 1px solid #0000000D;
+  border-radius: 18px;
+  opacity: 1;
+}
+
+.contact_us_modal_form_textarea {
+  background: #fafafb 0 0 no-repeat padding-box;
+  border: 1px solid rgba(0, 0, 0, .05098);
+  border-radius: 18px;
+  min-height: 105px;
+  padding: 8.5px 15px;
+  resize: none;
+  font-size: 14px;
+  color: #222;
+  overflow: auto;
+  vertical-align: top;
+  width: 100%;
+  outline: none;
+}
+
+.modal-textarea-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.modal_button_block {
+  text-align: center;
+}
+
+.modal_button {
+  cursor: pointer;
+  font-family: OpenSans-Bold, sans-serif;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: #98fc03;
+  width: 240px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212529;
+  outline: none;
+  border: none;
+}
+
+.modal_button_modal_close {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  font-family: OpenSans-SemiBold, sans-serif;
+  top: 16px;
+  right: 16px;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  text-transform: none;
+}
+
+.errors_span {
+  color: #ff7e61;
+  margin-top: 6px;
+  margin-left: 15px;
+  font-size: 12px;
+  font-family: OpenSans-Regular, sans-serif;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+@media only screen and (max-width: 1170px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+  .contact_us_modal {
+    width: 728px;
+  }
+  .modal_flex_content {
+    display: block;
+  }
+
+  .modal_row_content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 374px) {
+
+}

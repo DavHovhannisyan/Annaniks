@@ -3,10 +3,11 @@ import {Box} from "@mui/material";
 import OurValues from "./OurValues";
 import Life from "./Life";
 import FindPosition from "./FindPosition";
+import styles from '../../styles/Careers.module.css'
 
 const MainContent:FC = () => {
     return (
-        <Box sx={{paddingX:'6.9rem'}}>
+        <Box className={styles.careers_main_contain}>
             <OurValues/>
             <Life/>
             <FindPosition/>

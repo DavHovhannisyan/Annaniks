@@ -7,3 +7,4 @@ export { default as OurProject } from "./home/OurProject";
 export { default as MeetOurTeam } from "./home/MeetOurTeam";
 export { default as Contact } from "./home/Contact";
 export { default as ContactUs } from "./home/ContactUs";
+export { default as CustomModal } from "./home/CustomModal";
