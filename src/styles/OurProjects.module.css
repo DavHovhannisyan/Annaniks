@@ -4,6 +4,8 @@
     border: 0;
     padding: 0;
     vertical-align: baseline;
+    min-height: 100vh;
+    background-color: #fff;;
 }
 
 .main_content {
@@ -17,7 +19,7 @@
 .topBar {
     padding: 18px 110px;
     background-image: url(../../public/images/ourProjectImg/0c2f3f3.svg), url(../../public/images/ourProjectImg/5812f71.svg);
-    background-position: 100% 0, 0 120%;
+    background-position: 100% 0, 0 100%;
     background-repeat: no-repeat;
 }
 
@@ -51,7 +53,7 @@
     border-radius: 25px;
     width: 100%;
     min-height: 50px;
-    margin-bottom: 120px;
+    margin-bottom: 200px;
     margin-top: 50px;
 }
 
@@ -138,16 +140,20 @@
 
 .our_projects_section {
     width: 100%;
-    margin-top: -150px;
+    margin-top: -145px;
+    position: relative;
+    top: 5px;
 }
 
 .background_img {
-    margin-top: 95px;
+    position: relative;
+    top: 1px;
     width: 100%;
     background-image: url(../../public/images/ourProjectImg/9e3aeea.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 150px;
+    border: none;
 }
 
 
@@ -328,6 +334,10 @@
     text-align: left;
     letter-spacing: 0;
     color: #101639;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 
@@ -523,7 +533,13 @@
     .our_projects_carousel_item:nth-child(n) {
         margin-right: 0;
     }
-
+    .our_projects_section {
+        width: 100%;
+        margin-top: -60px;
+    }
+    .our_project_search_container{
+        margin-bottom: 130px;
+    }
 }
 
 @media only screen and (max-width: 374px) {

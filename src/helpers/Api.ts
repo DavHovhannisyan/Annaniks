@@ -19,7 +19,7 @@ export function getPortfolioType() {
     )
 }
 
-export function getPortfolioData(limit?: number, offset?: number, portfolio_type?: number, search?: string, locale?: any) {
+export function getPortfolioData(limit?: number, offset?: number, portfolio_type?: number | string, search?: string, locale?: any) {
     return (
         API.get('portfolio', {
                 params: {

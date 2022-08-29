@@ -574,6 +574,7 @@
     font: normal normal bold 22px/30px Open Sans;
     letter-spacing: 0;
     color: #101639;
+    cursor: pointer;
 }
 
 .contactUsBtn:hover {
