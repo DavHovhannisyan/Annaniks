@@ -207,7 +207,7 @@ footer {
 }
 @media screen and (max-width: 700px) {
     .dragInCarousel {
-        width: 450px !important;
+        width: 420px !important;
     }
     .swiper-scrollbar-drag {
         width: 58px !important;
