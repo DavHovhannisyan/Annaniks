@@ -1,4 +1,4 @@
-export const props = {
+export const layout = {
     title: "Home Page",
     meta: {
         name: "description",
