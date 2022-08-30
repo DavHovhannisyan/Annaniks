@@ -3,7 +3,7 @@ import {GetServerSideProps, NextPage} from "next";
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 import {useRouter} from "next/router";
 import Layout from "../../layout/Layout";
-import {props} from "../../constants/home/constants";
+import {layout} from "../../constants/home/constants";
 import ProjectInfoWebsite from "../../components/infoOurProject/ProjectInfoWebsite";
 import {getPortfolioTSingleData} from "../../helpers/Api";
 import ProjectInfoMobile from "../../components/infoOurProject/ProjectInfoMobile";
@@ -43,13 +43,12 @@ const OurProject: NextPage = () => {
         if (window) {
             const TypePortfolio = localStorage.getItem('portfolioType')
             SetPortfolioType(TypePortfolio)
-            console.log(TypePortfolio)
         }
     }, [portfolioType])
 
 
     return (
-        <Layout props={props}>
+        <Layout layout={layout}>
             {portfolioType === '4' ? <ProjectInfoWebsite/> : <ProjectInfoMobile/>}
         </Layout>
     );

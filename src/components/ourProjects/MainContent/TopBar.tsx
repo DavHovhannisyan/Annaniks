@@ -11,7 +11,7 @@ interface IItem {
     description: string
 }
 
-interface IData {
+interface IPortfolioType {
     id: number,
     name: string,
     name_ru: string
@@ -20,26 +20,26 @@ interface IData {
 
 interface IProps {
     locale: string,
-    data: Array<IData>
-    results: Array<IItem>
-    SetInputText: Dispatch<SetStateAction<string>>
+    portfolioTypesArray: Array<IPortfolioType>
+    mainData: Array<IItem>
     setResultsSearch: (param: string) => void
     setResultsPortfolioType: (param: number) => void
 }
 
-const TopBar: FC<IProps> = ({locale, data, SetInputText, results, setResultsSearch,setResultsPortfolioType}) => {
-    const [show, setShow] = useState<boolean>(false)
+const TopBar: FC<IProps> = ({locale, portfolioTypesArray, mainData, setResultsSearch,setResultsPortfolioType}) => {
+    const [showSelect, setShowSelect] = useState<boolean>(false)
     const {t} = useTranslation('common');
     const {register, handleSubmit, formState: {errors}} = useForm({mode: 'all'});
 
     const handleClick = useCallback((e: React.MouseEvent<HTMLElement>) => {
         e.stopPropagation()
-        show ? setShow(false) : setShow(true)
-    }, [show])
+        showSelect ? setShowSelect(false) : setShowSelect(true)
+    }, [showSelect])
+
     const handleCloseClick = useCallback((e: React.MouseEvent<HTMLElement>) => {
         e.stopPropagation()
-        show ? setShow(false) : null
-    }, [show])
+        showSelect ? setShowSelect(false) : null
+    }, [showSelect])
 
     return (
         <div onClick={handleCloseClick} className={styles.topBar}>
@@ -52,8 +52,11 @@ const TopBar: FC<IProps> = ({locale, data, SetInputText, results, setResultsSear
                 </p>
             </div>
             <div className={styles.our_project_search_container}>
-                <SearchInput setResultsPortfolioType={setResultsPortfolioType} setResultsSearch={setResultsSearch} results={results} SetInputText={SetInputText} locale={locale}
-                             data={data} show={show}
+                <SearchInput setResultsPortfolioType={setResultsPortfolioType}
+                             setResultsSearch={setResultsSearch}
+                             locale={locale}
+                             portfolioTypesArray={portfolioTypesArray}
+                             showSelect={showSelect}
                              handleClick={handleClick}/>
             </div>
         </div>

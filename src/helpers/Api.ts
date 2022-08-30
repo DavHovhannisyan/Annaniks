@@ -43,3 +43,6 @@ export function getPortfolioTSingleData(id: number, locale?: any) {
         })
     )
 }
+
+
+export default API

@@ -6,12 +6,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import styles from '../../../../styles/OurProjects.module.css'
 
 
-interface IItem {
-    id: number
-    title: string
-    description: string
-}
-
 interface IData {
     id: number,
     name: string,
@@ -22,22 +16,18 @@ interface IData {
 
 interface IProps {
     handleClick: (e: React.MouseEvent<HTMLElement>) => void
-    show: boolean
+    showSelect: boolean
     locale: string,
-    data: Array<IData>
-    results: Array<IItem>
+    portfolioTypesArray: Array<IData>
     setResultsSearch: (param: string) => void
     setResultsPortfolioType: (param: number) => void
-    SetInputText: Dispatch<SetStateAction<string>>
 }
 
 const SearchInput: FC<IProps> = ({
                                      handleClick,
-                                     show,
-                                     data,
+                                     showSelect,
+                                     portfolioTypesArray,
                                      locale,
-                                     SetInputText,
-                                     results,
                                      setResultsSearch,
                                      setResultsPortfolioType
                                  }) => {
@@ -53,8 +43,8 @@ const SearchInput: FC<IProps> = ({
 
     return (
         <form className={styles.search_input_block} onSubmit={onSubmit}>
-            <Select setResultsPortfolioType={setResultsPortfolioType} data={data} locale={locale}
-                    handleClick={handleClick} show={show}/>
+            <Select setResultsPortfolioType={setResultsPortfolioType} portfolioTypesArray={portfolioTypesArray} locale={locale}
+                    handleClick={handleClick} showSelect={showSelect}/>
             <Input  {...register("search")} />
             <button className={styles.search_button}><SearchIcon/></button>
         </form>

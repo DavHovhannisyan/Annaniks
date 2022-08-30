@@ -21,16 +21,16 @@ interface IProps {
 
 interface ILayout extends HTMLProps<HTMLDivElement> {
     children?: ReactNode;
-    props: IProps;
+    layout: IProps;
 }
 
-const Layout: FC<ILayout> = ({props, children}) => {
+const Layout: FC<ILayout> = ({layout, children}) => {
     return (
         <>
             <Head>
-                <title>{props.title}</title>
-                <meta name={props.meta.name} content={props.meta.content}/>
-                <link rel={props.link.rel} data-n-head={props.link.dataNhead} href={props.link.href}/>
+                <title>{layout.title}</title>
+                <meta name={layout.meta.name} content={layout.meta.content}/>
+                <link rel={layout.link.rel} data-n-head={layout.link.dataNhead} href={layout.link.href}/>
             </Head>
             <Header />
             <Box className={"container"}>
