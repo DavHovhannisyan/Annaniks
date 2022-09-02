@@ -5,14 +5,15 @@ import {useRouter} from "next/router";
 import Layout from "../../layout/Layout";
 import {layout} from "../../constants/home/constants";
 import ProjectInfoWebsite from "../../components/infoOurProject/ProjectInfoWebsite";
-import {getPortfolioTSingleData} from "../../helpers/Api";
+import {getPortfolioSingleData} from "../../helpers/Api";
 import ProjectInfoMobile from "../../components/infoOurProject/ProjectInfoMobile";
+import {IPropID} from "../../types/ourProject/type";
 
 
 export const getServerSideProps: GetServerSideProps = async ({locale, params}: any) => {
     try {
         const {id} = params
-        const {data} = await getPortfolioTSingleData(id, locale)
+        const {data} = await getPortfolioSingleData(id, locale)
 
         return {
             props: {
@@ -34,7 +35,7 @@ export const getServerSideProps: GetServerSideProps = async ({locale, params}: a
 
 }
 
-const OurProject: NextPage = () => {
+const OurProject: NextPage<IPropID> = ({data}) => {
     const router = useRouter()
     const [portfolioType, SetPortfolioType] = useState<string | null>('')
 
@@ -49,7 +50,9 @@ const OurProject: NextPage = () => {
 
     return (
         <Layout layout={layout}>
-            {portfolioType === '4' ? <ProjectInfoWebsite/> : <ProjectInfoMobile/>}
+            {data && data?.portfolio_type.length > 1 ?
+                <ProjectInfoWebsite data={data} length={2}/> : data?.portfolio_type[0].id === 4 ?
+                    <ProjectInfoWebsite data={data} length={1}/> : <ProjectInfoMobile data={data}/>}
         </Layout>
     );
 };

@@ -34,7 +34,7 @@ export function getPortfolioData(limit?: number, offset?: number, portfolio_type
     )
 }
 
-export function getPortfolioTSingleData(id: number, locale?: any) {
+export function getPortfolioSingleData(id: number, locale?: any) {
     return (
         API.get(`portfolio/${id}`, {
             params: {
@@ -43,6 +43,16 @@ export function getPortfolioTSingleData(id: number, locale?: any) {
         })
     )
 }
+export function getPosition(locale?: any) {
+    return (
+        API.get(`position`, {
+            params: {
+                language: locale
+            }
+        })
+    )
+}
+
 
 export function getOurTeamData(locale?: any) {
     return (

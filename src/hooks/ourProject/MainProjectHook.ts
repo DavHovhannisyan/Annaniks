@@ -4,12 +4,11 @@ import {IProps} from '../../types/ourProject/type'
 
 const MainProjectHook = (props: IProps) => {
 
-    const {locale, portfolioTypesArray, itemsArray} = props
-
+    const {locale, itemsArray} = props
     const [showButton, setShowButton] = useState<boolean>(true)
     const [mainData, setMainData] = useState([...itemsArray])
     const [inputText, SetInputText] = useState<string>('')
-    const [offset, setOffset] = useState<number>(0)
+    const [offset, setOffset] = useState<number>(4)
     const [portfolioType, SetPortfolioType] = useState<undefined | number | string>(3)
 
     useEffect(() => {
@@ -19,31 +18,33 @@ const MainProjectHook = (props: IProps) => {
         }
     }, [])
 
-    const setResultsPortfolioOffset = useCallback(async (new_offset:number) => {
-        const {data} = await getPortfolioData(4, 4, portfolioType, '', locale)
+    const setResultsPortfolioOffset = useCallback(async () => {
+        console.log(portfolioType)
+        const {data} = await getPortfolioData(4, offset, portfolioType, '', locale)
         setMainData([...mainData, ...data.results])
         setShowButton(false);
-        setOffset(new_offset);
-    }, [mainData])
+        setOffset(8)
+    }, [offset,portfolioType])
 
 
     const setResultsSearch = useCallback(async (search: string) => {
-
-        SetInputText(search)
         const {data} = await getPortfolioData(4, 0, portfolioType, search, locale)
         setMainData([...data.results])
-    }, [mainData])
+        SetInputText(search)
+    }, [inputText,portfolioType])
 
     const setResultsPortfolioType = useCallback(async (param: number) => {
         SetPortfolioType(param)
-        const {data} = await getPortfolioData(4, offset, param, '', locale)
+        const {data} = await getPortfolioData(4, 0, param, '', locale)
         if (data) {
             setMainData([...data.results])
         }
         setShowButton(true)
-        setOffset(0)
+        setOffset(4)
+        SetInputText('')
+        SetPortfolioType(param)
         localStorage.setItem('portfolioType', param.toString())
-    }, [mainData])
+    }, [portfolioType])
 
     return {
         setResultsPortfolioOffset,
