@@ -1,12 +1,15 @@
 import type { NextPage} from 'next';
+import {GetServerSideProps} from "next";
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 import Layout from "../layout/Layout";
 import {layout} from "../constants/home/constants";
 import {Banner, TrustedSection, TowsSection, OurProject, MeetOurTeam, Contact,ContactUs} from "../components/index";
 import { getOurTeamData, getPortfolioData} from "../helpers/Api";
-import {IProps} from "../types/home/type";
-import {GetServerSideProps} from "next";
+import {IOurTeam, IProps} from "../types/home/type";
 
+interface IOurTeamCarousel extends IProps{
+    ourTeamData: Array<IOurTeam>;
+}
 
 export const getServerSideProps: GetServerSideProps = async ({locale}: any) => {
     try {
@@ -34,8 +37,8 @@ export const getServerSideProps: GetServerSideProps = async ({locale}: any) => {
     }
 }
 
-const Home: NextPage<IProps> = (props) => {
-    const {locale, ourTeamData, portfolioData  } = props;
+const Home: NextPage<IOurTeamCarousel> = (props) => {
+    const {locale, portfolioData,ourTeamData  } = props;
     return (
         <Layout layout={layout}>
             <Banner/>

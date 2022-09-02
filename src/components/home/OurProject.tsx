@@ -29,7 +29,7 @@ const OurProject: FC<IOurProject> = ({portfolioData}) => {
                 </p>
                 <Box data-aos="fade-up"
                      data-aos-duration="2000"  className={Home.ourProjectBtn}>
-                    <Link href={"/ourProject"}>
+                    <Link href={"/ourprojects"}>
                         <a className={Home.Link}>
                             {t("common:OurProjects:buttonText")}
                         </a>

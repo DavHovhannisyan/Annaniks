@@ -280,11 +280,11 @@
     border-radius: 30px;
     margin-top: 30px;
     margin-bottom: 50px;
-    transition: all ease 0.5s;
+    transition: all ease 0.8s!important;
 }
 
 .ourProjectBtn:hover {
-    transform: scale(0.95);
+    transform: scale(0.95) !important;
 }
 
 .Link {
@@ -569,15 +569,17 @@
     border-radius: 30px;
     margin-top: 30px;
     margin-bottom: 50px;
-    transition: all ease 0.5s;
+    transition: all ease 0.8s!important;
     font: normal normal bold 22px/30px Open Sans;
     letter-spacing: 0;
     color: #101639;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 .contactUsBtn:hover {
-    transform: scale(0.95);
+    transform: scale(0.95)!important;
 }
 
 @media screen and (max-width: 1400px) {

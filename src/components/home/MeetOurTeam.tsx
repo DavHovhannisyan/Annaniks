@@ -3,10 +3,14 @@ import {useTranslation} from "next-i18next";
 import {Box} from "@mui/material";
 import OurTeamCarousel from "./ourTeam/OurTeamCarousel";
 import Home from "../../styles/Home.module.css";
-import {IProps} from "../../types/home/type";
+import {IOurTeam, IProps} from "../../types/home/type";
 
 
-const MeetOurTeam: FC<IProps> = ({ourTeamData,locale}) => {
+interface IOurTeamCarousel extends IProps{
+    ourTeamData: Array<IOurTeam>;
+}
+
+const MeetOurTeam: FC<IOurTeamCarousel> = ({ourTeamData,locale}) => {
     const {t} = useTranslation('common');
 
     return (
