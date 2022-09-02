@@ -1,6 +1,5 @@
 import {FC} from "react";
 import Slider from "react-slick";
-import {ourProjectSliderData} from "../../../constants/home/constants";
 import CarouselItem from "./CarouselItem";
 import Image from "next/image";
 import {Box} from "@mui/material";
@@ -9,6 +8,10 @@ import prevIcon from "../../../../public/images/carousel/Group69185.svg"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Home from "../../../styles/Home.module.css";
+
+interface IOurProjectItem {
+    portfolioData:any
+}
 
 function SampleNextArrow(props: any) {
     const {className, style, onClick} = props;
@@ -104,15 +107,15 @@ const settings = {
     ]
 };
 
-const OurProjectCarousel: FC = () => {
+const OurProjectCarousel: FC<IOurProjectItem> = ({portfolioData}) => {
 
     return (
         <Box className={Home.ourProjectCarousel}>
             <Slider {...settings} >
                 {
-                    ourProjectSliderData.map((val) => (
-                        <div key={val.title}>
-                            <CarouselItem title={val.title} desc={val.desc}/>
+                    portfolioData.map((portfolioItem:any) => (
+                        <div key={portfolioItem.id}>
+                            <CarouselItem title={portfolioItem.title} desc={portfolioItem.portfolio_type[0].name}/>
                         </div>
                     ))
                 }

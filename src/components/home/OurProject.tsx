@@ -6,8 +6,11 @@ import {Box} from "@mui/material";
 import OurProjectCarousel from "./ourProject/OurProjectCarousel";
 import Home from "../../styles/Home.module.css";
 
+interface IOurProject {
+    portfolioData:any
+}
 
-const OurProject: FC = () => {
+const OurProject: FC<IOurProject> = ({portfolioData}) => {
     const {t} = useTranslation('common');
 
     return (
@@ -33,7 +36,7 @@ const OurProject: FC = () => {
                     </Link>
                 </Box>
                 <Box className={Home.ourProjectCarouselBLock}>
-                    <OurProjectCarousel />
+                    <OurProjectCarousel portfolioData={portfolioData} />
                 </Box>
                 <Box className={Home.bgRevers} />
             </Box>

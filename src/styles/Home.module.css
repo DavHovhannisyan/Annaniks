@@ -395,7 +395,6 @@
 .swiperSlideItem {
     max-width: 404px;
     height: 520px !important;
-    background-image: url("../../public/images/ourTeam/4.png");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;

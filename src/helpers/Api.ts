@@ -23,7 +23,7 @@ export function getPortfolioData(limit?: number, offset?: number, portfolio_type
     return (
         API.get('portfolio', {
                 params: {
-                    limit: 4,
+                    limit: limit || 4,
                     offset: offset || 0,
                     portfolio_type: portfolio_type || 3,
                     search: search || '',
@@ -37,6 +37,16 @@ export function getPortfolioData(limit?: number, offset?: number, portfolio_type
 export function getPortfolioTSingleData(id: number, locale?: any) {
     return (
         API.get(`portfolio/${id}`, {
+            params: {
+                language: locale
+            }
+        })
+    )
+}
+
+export function getOurTeamData(locale?: any) {
+    return (
+        API.get(`staff`, {
             params: {
                 language: locale
             }

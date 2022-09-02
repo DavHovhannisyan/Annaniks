@@ -4,8 +4,10 @@ import Home from "../../../styles/Home.module.css";
 
 
 interface ICarouselItem {
-    title: string;
+    name: string;
     desc: string;
+    image: string;
+    profesia: string;
 }
 
 const CarouselItem: FC<ICarouselItem> = (props) => {
@@ -13,25 +15,26 @@ const CarouselItem: FC<ICarouselItem> = (props) => {
 
     return (
         <>
-            <Box className={Home.swiperSlideItem}>
+            <Box style={{
+                backgroundImage: `url(${props.image})`,
+            }} className={Home.swiperSlideItem}>
                 <Box className={Home.ourTeamCarouselItemContext}>
                     {!matches425 && (<><h2 className={Home.ourTeamCarouselItemTitle}>
-                        {props.title}
+                        {props.name}
                     </h2>
                         <p className={Home.ourTeamCarouselItemDesc}>
-                            {props.desc}
+                            {props.profesia}
                         </p>
                         <p className={Home.ourTeamCarouselItemInfo}>
-                            sdfbdsfbdsfbdsfvbsdfvb sdfvsdfv dfvbdfv
-                            fvfdvdfvsdc sdfv
+                            {props.desc}
                         </p></>)}
                 </Box>
             </Box>
             {matches425 && (<><h2 className={Home.ourTeamCarouselItemTitle}>
-                {props.title}
+                {props.name}
             </h2>
                 <p className={Home.ourTeamCarouselItemDesc}>
-                    {props.desc}
+                    {props.profesia}
                 </p></>)}
         </>
     )
