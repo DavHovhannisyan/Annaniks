@@ -47,6 +47,8 @@
     height: 80%;
     background-color: red;
     z-index: 2;
+    background-position: center ;
+    background-size: contain;
 }
 
 .mac_image {
@@ -108,17 +110,19 @@
     flex: 1;
     height: 340px;
     margin: 0 14px;
-    background: #0b1131 0 0 no-repeat padding-box;
+    background: #0b1131 center no-repeat padding-box;
     box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
     border-radius: 15px;
+    background-size: cover;
 }
 
 .big_image_our_project_id {
     height: 956px;
-    background: #0b1131 0 0 no-repeat padding-box;
+    background: #0b1131 center no-repeat padding-box;
     box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
     border-radius: 15px;
     margin-bottom: 150px;
+    background-size: contain;
 }
 
 .id_bottom_image_container {

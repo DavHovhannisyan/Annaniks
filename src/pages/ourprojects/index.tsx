@@ -62,7 +62,7 @@ const OurProjects: NextPage<IProps> = (props) => {
                 <div className={styles.load_more}>
                     <div className={styles.load_more_container}>
                         {showButton ?
-                            <button onClick={()=>setResultsPortfolioOffset(offset+4)}
+                            <button onClick={setResultsPortfolioOffset}
                                     className={styles.view_more_button}>
                                 {t("common:ourProjectpage:loadMore")}
                             </button>

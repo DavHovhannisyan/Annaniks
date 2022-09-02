@@ -18,7 +18,9 @@ const nextConfig = {
       ssr: true,
     },
   },
-
+  images: {
+    domains: ['admin.annaniks.com'],
+    hostname:['admin.annaniks.com']
+  },
 }
-
 module.exports = nextConfig
